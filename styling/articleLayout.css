@@ -1,0 +1,40 @@
+.articles{
+    margin-left: 4%;
+}
+td {
+    color: #424A45;
+    width:150px;
+    background-color: inherit;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+.border{
+    border: 2px solid #424A45;
+}
+.spacing {
+    margin-top: 12.5px;
+}
+.bigSpacing {
+    margin-top: 60px;
+}
+.pushUp{
+    padding-bottom: 140px;
+}
+.pushUp2{
+    padding-bottom: 180px;
+}
+.pushUp3{
+    padding-bottom: 220px;
+}
+.pushUp4{
+    padding-bottom: 58px;
+}
+.pushUp5{
+    padding-bottom: 45px;
+}
+.pushUp6{
+    padding-bottom: 45px;
+}
+.title {
+    color: black;
+}

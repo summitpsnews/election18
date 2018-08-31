@@ -1,0 +1,35 @@
+.fillBackground{
+    background-color: #67F0E2;
+}
+.center {
+    margin: auto;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h2 {
+    color: black;
+    margin-left:4%;
+}
+.offsetLeft {
+    margin-left: 20%;
+    line-height: 50%;
+}
+body {
+    font-family: Helvetica ,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+h5 {
+    color: black;
+    padding: 0;
+}
+p {
+    color: black;
+    font-size: 15px;
+    font-family: Calibri;
+    padding: 0;
+}
+h6 {
+    text-decoration: none;
+}
