@@ -1,3 +1,6 @@
+/*This code is also absolutely necessary.*/
+.alert-all{font-family:monospace;color:#000000;background-color:#000000;position:fixed;overflow:auto}.alert-all .titlebar{background-color:#00ff00;color:#000000;top:25%;left:25%;width:50%;height:5%;font-size:24pt;white-space:nowrap;}.alert-all .mainbody{background-color:#00ff00;color:#000000;top:30%;left:25%;width:50%;height:40%;vertical-align:center}.alert-all .bottombar{background-color:#00ff00;color:#000000;top:70%;left:25%;width:50%;height:5%;font-size:12pt;vertical-align:center;text-align:right}.alert-all .button{background-color:#000000;color:#00ff00;position:relative;top:0;height:100%;right:0;font-size:10pt;vertical-align:center}.alert-all .textinput{background-color:#000000;margin:none;border:none;padding:none;position:relative;top:0;height:100%;left:0;right:0;width:50%;font-size:10pt;vertical-align:center}
+
 ::-webkit-scrollbar-corner{
     display:none;
     width: 5px;
