@@ -32,7 +32,7 @@ h5, h6 {
     font-style: italic;
 }
 
-.image {
+.image, #article iframe {
     margin-left: 4%;
 }
 
