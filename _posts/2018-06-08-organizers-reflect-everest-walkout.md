@@ -20,4 +20,4 @@ some of these issues, and what does it mean for individuals citizens to be engag
 
 #### See below for a video explaining more about this walkout:
 
-<iframe width="1000" height="562.5" src="https://www.youtube.com/embed/q04oRKNCQFk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
+<iframe width="1000" height="562.5" src="https://www.youtube.com/embed/q04oRKNCQFk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
