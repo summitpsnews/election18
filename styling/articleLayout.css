@@ -1,55 +1,83 @@
-.articles{
-    margin-left: 4%;
+.recent-articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-flow: row;
 }
-td {
-    color: #424A45;
-    width:150px;
-    background-color: inherit;
-    font-family: Helvetica,Helvetica,Arial,sans-serif;
-    font-size: 17px;
+.recent-article {
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+    border: 2px solid black;
 }
-.border{
-    border: 2px solid #424A45;
+.recent-article img {
+    width: calc(100% - 4px);
+    height: auto;
+    margin: 2px;
 }
-.spacing {
-    margin-top: 12.5px;
+.recent-article p, .recent-article h6 {
+    width: calc(100% - 10px);
+    margin: 10px 5px;
 }
-.bigSpacing {
-    margin-top: 60px;
-}
-.pushUp{
-    padding-bottom: 140px;
-}
-.pushUp2{
-    padding-bottom: 180px;
-}
-.pushUp3{
-    padding-bottom: 220px;
-}
-.pushUp4{
-    padding-bottom: 233px;
-}
-.pushUp5{
-    padding-bottom: 220px;
-}
-.pushUp6{
-    padding-bottom: 45px;
-}
-.pushUp7 {
-    padding-bottom: 75px;
-}
-.pushUp8 {
-    padding-bottom: 215px;
-}
-.pushUp9 {
-    padding-bottom: 182px;
-}
-.pushUp10 {
-    padding-bottom: 270px;
-}
-.pushUp11 {
-    padding-bottom: 175px;
-}
-.title {
+.recent-article .title {
     color: black;
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
 }
+
+/*.articles{*/
+/*    margin-left: 4%;*/
+/*}*/
+/*td {*/
+/*    color: #424A45;*/
+/*    width:150px;*/
+/*    background-color: inherit;*/
+/*    font-family: Helvetica,Helvetica,Arial,sans-serif;*/
+/*    font-size: 17px;*/
+/*}*/
+/*.border{*/
+/*    border: 2px solid #424A45;*/
+/*}*/
+/*.spacing {*/
+/*    margin-top: 12.5px;*/
+/*}*/
+/*.bigSpacing {*/
+/*    margin-top: 60px;*/
+/*}*/
+/*.pushUp{*/
+/*    padding-bottom: 140px;*/
+/*}*/
+/*.pushUp2{*/
+/*    padding-bottom: 180px;*/
+/*}*/
+/*.pushUp3{*/
+/*    padding-bottom: 220px;*/
+/*}*/
+/*.pushUp4{*/
+/*    padding-bottom: 233px;*/
+/*}*/
+/*.pushUp5{*/
+/*    padding-bottom: 220px;*/
+/*}*/
+/*.pushUp6{*/
+/*    padding-bottom: 45px;*/
+/*}*/
+/*.pushUp7 {*/
+/*    padding-bottom: 75px;*/
+/*}*/
+/*.pushUp8 {*/
+/*    padding-bottom: 215px;*/
+/*}*/
+/*.pushUp9 {*/
+/*    padding-bottom: 182px;*/
+/*}*/
+/*.pushUp10 {*/
+/*    padding-bottom: 270px;*/
+/*}*/
+/*.pushUp11 {*/
+/*    padding-bottom: 175px;*/
+/*}*/
+/*.title {*/
+/*    color: black;*/
+/*}*/

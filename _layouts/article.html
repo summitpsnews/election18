@@ -1,0 +1,24 @@
+---
+layout: main
+---
+<h2>
+    {{ page.title }}
+</h2>
+<h5>
+    Posted on {{ page.date | date_to_long_string: "ordinal", "US" }} by {{ page.authors | array_to_sentence_string }}
+</h5>
+<h5 style="font-style: normal">
+    Tags: {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+</h5>
+<img src="{{ site.baseurl }}/assets{{ page.id }}/cover.jpg" class="image" />
+{% if page.cover-caption %}
+    <em class="cover-caption">{{ page.cover-caption }}</em>
+{% endif %}
+<h4>
+    By {{ page.authors | array_to_sentence_string }}
+</h4>
+<div id="article">
+    {{ content }}
+</div>
