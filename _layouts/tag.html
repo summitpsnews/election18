@@ -4,7 +4,7 @@ layout: main
 <h2>Articles with the tag: {{ page.tag }}</h2>
 {% for post in site.tags[page.tag] %}
 <div class="box">
-    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets{{ post.id }}/square.jpg" width=250px height=250px></a>
+    <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets{{ post.id }}/cover.jpg" width=250px height=250px style="object-fit: cover"></a>
     <div class="textbox">
         <h3>
             <a href="{{ site.baseurl }}{{ post.url }}" class="link">
