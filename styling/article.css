@@ -159,6 +159,10 @@ h3 {
     padding: 1.5em 0.5em 0.4em;
 }
 
+.cover-caption a, #article img + em a {
+    color: skyblue;
+}
+
 blockquote {
     margin-left: 1.5em;
     padding: 0 1em;
