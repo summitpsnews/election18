@@ -12,7 +12,7 @@ layout: main
         <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
     {% endfor %}
 </h5>
-<img src="{{ site.baseurl }}/assets{{ page.id }}/cover.jpg" class="image" />
+<img src="{{ site.baseurl }}/assets{{ page.id }}/cover.jpg" class="image cover" />
 {% if page.cover-caption %}
     <em class="cover-caption">{{ page.cover-caption }}</em>
 {% endif %}

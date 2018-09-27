@@ -13,11 +13,10 @@ a {
 
 h2 {
     color: black;
-    margin-left: 4%;
 }
 
 .offsetLeft {
-    margin-left: 20%;
+    margin-left: 16%;
 
 }
 
@@ -28,23 +27,16 @@ body {
 
 h5, h6 {
     color: #424A45;
-    margin-left: 4%;
     font-style: italic;
-}
-
-.image, #article iframe {
-    margin-left: 4%;
 }
 
 h4 {
     color: black;
-    margin-left: 4%;
     font-style: italic;
 }
 
 p {
     color: black;
-    margin-left: 4%;
     /*width: 1000px;*/
     font-family: Calibri, sans-serif;
 }
@@ -72,7 +64,6 @@ p {
 }
 
 h3 {
-    margin-left: 4%;
     color: black;
 }
 
@@ -115,19 +106,55 @@ h3 {
 .articleCenter, #article img {
     width:50%;
     margin-left:25%;
+    margin-bottom: 0;
 }
 #article img + em {
     width:50%;
-    margin-left:25%;
-    color: #424A45;
-    font-size: 0.75em;
+    color: white;
+    font-size: 10pt;
     display: block;
-    font-weight: bold;
+    margin: 0 0 -100% 25%;
+    float: left;
+    transform: translate(0, calc(-100% - 5.5px));
+    background: linear-gradient(to bottom, transparent, #000);
+    box-sizing: border-box;
+    padding: 1.5em 0.5em 0.4em;
+}
+#article .left {
+    width: 25%;
+    float: left;
+    margin: 1em 1em 0 0;
+}
+#article .right {
+    width: 25%;
+    float: right;
+    margin: 1em 0 0 1em;
+}
+#article .left + em {
+    width: 25%;
+    float: left;
+    margin: 0.5em 1em 0 0;
+    clear: left;
+}
+#article .right + em {
+    width: 25%;
+    float: right;
+    margin: 0.5em 0 0 1em;
+    clear: right;
+}
+.cover {
+    width: 100%;
+    height: auto;
 }
 .cover-caption {
-    margin-left: 4%;
-    color: #424A45;
-    font-size: 0.75em;
+    width: 100%;
+    color: white;
+    font-size: 10pt;
     display: block;
-    font-weight: bold;
+    margin: 0 0 -100% 0;
+    float: left;
+    transform: translate(0, calc(-100% - 5.5px));
+    background: linear-gradient(to bottom, transparent, #000);
+    box-sizing: border-box;
+    padding: 1.5em 0.5em 0.4em;
 }

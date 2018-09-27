@@ -2,6 +2,11 @@
     display:none;
     width: 5px;
 }
+
+#pageContent {
+    padding: 0.5em 4% 2%;
+}
+
 .navbar {
     background-color: #74b9ff;
     overflow: hidden;
