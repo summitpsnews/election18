@@ -9,8 +9,10 @@
     <link rel="icon" href="https://image.ibb.co/i68wQz/summit_logo.png" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/article.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/articleLayout.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/overall.css" type="text/css" />
+    {% for sheet in page.extraCSS %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
+    {% endfor %}
 </head>
 
 <body>
@@ -73,7 +75,9 @@
             </a>
         </ul>
     </div>
-    {{ content }}
+    <div id="pageContent">
+        {{ content }}
+    </div>
 </body>
 
 </html>
