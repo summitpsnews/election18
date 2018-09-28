@@ -182,3 +182,9 @@ twitterwidget::before {
     height: 1.5em;
     display: block;
 }
+
+.clearfix {
+    display: block;
+    clear: both;
+    height: 1.5em;
+}
