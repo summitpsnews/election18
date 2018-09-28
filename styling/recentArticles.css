@@ -1,19 +1,22 @@
 .recent-articles {
     width: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-auto-flow: row;
+    /*display: grid;*/
+    /*grid-template-columns: 50% 50%;*/
+    /*grid-auto-flow: row;*/
 }
 .recent-article {
     margin: 20px;
     padding: 0;
     text-align: left;
     border: 2px solid black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
 }
 .recent-article img {
-    width: calc(100% - 4px);
+    width: 100%;
     height: auto;
-    margin: 2px;
+    margin: 2px 2px -3px;
 }
 .recent-article p, .recent-article h6 {
     width: calc(100% - 10px);
@@ -23,7 +26,10 @@
     color: black;
     text-align: center;
     margin: 5px;
-    display: inline-block;
+    /*display: inline-block;*/
+}
+.recent-content {
+    padding: 20px;
 }
 
 /*.articles{*/
