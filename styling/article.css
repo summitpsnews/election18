@@ -171,3 +171,14 @@ blockquote {
     border-left: 5px solid #7dad27;
     font-style: italic;
 }
+
+twitterwidget {
+    clear: both;
+    margin-top: -1.5em !important;
+}
+
+twitterwidget::before {
+    content: "";
+    height: 1.5em;
+    display: block;
+}
