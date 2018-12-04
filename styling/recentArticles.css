@@ -1,8 +1,8 @@
 .recent-articles {
     width: 100%;
-    /*display: grid;*/
-    /*grid-template-columns: 50% 50%;*/
-    /*grid-auto-flow: row;*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: row;
 }
 .recent-article {
     margin: 20px;
@@ -10,13 +10,28 @@
     text-align: left;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50;
+    grid-auto-flow: row;
+}
+.recent-article2 {
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+    /*border: 2px solid black;*/
+    display: grid;
+    grid-template-columns: 50% 50;
     grid-auto-flow: row;
 }
 .recent-article img {
-    width: 100%;
+    width: 99%;
     height: auto;
-    margin: 2px 2px -3px;
+    margin: .5% .5% -3px;
+}
+.recent-article2 img {
+    width: 99%;
+    height: auto;
+    margin: .5% .5% -3px;
+    border: 2px solid black;
 }
 .recent-article p, .recent-article h6 {
     width: calc(100% - 10px);
@@ -31,59 +46,17 @@
 .recent-content {
     padding: 20px;
 }
-
-/*.articles{*/
-/*    margin-left: 4%;*/
-/*}*/
-/*td {*/
-/*    color: #424A45;*/
-/*    width:150px;*/
-/*    background-color: inherit;*/
-/*    font-family: Helvetica,Helvetica,Arial,sans-serif;*/
-/*    font-size: 17px;*/
-/*}*/
-/*.border{*/
-/*    border: 2px solid #424A45;*/
-/*}*/
-/*.spacing {*/
-/*    margin-top: 12.5px;*/
-/*}*/
-/*.bigSpacing {*/
-/*    margin-top: 60px;*/
-/*}*/
-/*.pushUp{*/
-/*    padding-bottom: 140px;*/
-/*}*/
-/*.pushUp2{*/
-/*    padding-bottom: 180px;*/
-/*}*/
-/*.pushUp3{*/
-/*    padding-bottom: 220px;*/
-/*}*/
-/*.pushUp4{*/
-/*    padding-bottom: 233px;*/
-/*}*/
-/*.pushUp5{*/
-/*    padding-bottom: 220px;*/
-/*}*/
-/*.pushUp6{*/
-/*    padding-bottom: 45px;*/
-/*}*/
-/*.pushUp7 {*/
-/*    padding-bottom: 75px;*/
-/*}*/
-/*.pushUp8 {*/
-/*    padding-bottom: 215px;*/
-/*}*/
-/*.pushUp9 {*/
-/*    padding-bottom: 182px;*/
-/*}*/
-/*.pushUp10 {*/
-/*    padding-bottom: 270px;*/
-/*}*/
-/*.pushUp11 {*/
-/*    padding-bottom: 175px;*/
-/*}*/
-/*.title {*/
-/*    color: black;*/
-/*}*/
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+    margin-bottom:0;
+}
+.centerCaption a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    padding-bottom: .5%
+}

@@ -6,7 +6,6 @@ authors:
 - Et Cetera (etc.)
 tags:
 - Example Tag
-- News
 cover-caption: It's a llama!
 published: false  # run `jekyll build --unpublished` to make this show on the site
 ---
