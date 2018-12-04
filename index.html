@@ -4,6 +4,20 @@ title: Summit PS News
 extraCSS:
 - recentArticles
 ---
+<div class="recent-articles">
+        <div class="recent-article2">
+            <div class="container">
+                <a href="{{ site.baseurl }}/tags/election.html"><img src="{{ site.baseurl }}/assets/flag.jpg"></a>
+                <div class="centerCaption"><h2><a href="{{ site.baseurl }}/tags/election.html">Election</a></h2></div>
+            </div>
+        </div>
+        <div class="recent-article2">
+            <div class="container">
+                <a href="{{ site.baseurl }}/tags/community.html"><img src="{{ site.baseurl }}/assets/community.jpg"></a>
+                <div class="centerCaption"><h2><a href="{{ site.baseurl }}/tags/community.html">Community</a></h2></div>
+            </div>
+        </div>
+</div>
 <h2>Recent Articles</h2>
 <div class="recent-articles">
     {% for post in site.posts limit:8 %}

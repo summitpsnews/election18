@@ -7,6 +7,7 @@ tags:
 - Redwood City
 - News
 - Expeditions
+- Community
 ---
 The organizers of the Sequoia Union Walkout put their skills to use and grew as activists on the day they took a stand for school safety. On March 14, students from Everest Public High School and Summit Preparatory Charter High School participated in
 the National Walkout Day to protest gun violence.

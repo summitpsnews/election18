@@ -4,7 +4,7 @@ authors:
 - Jacob Kahn-Samuelson
 tags:
 - News
-- Tahoma
+- Election
 cover-caption: "Robert Mueller is the Special Counsel for the Russia investigation. PHOTO CREDIT: <a href=\"https://commons.wikimedia.org/wiki/File:Robert_Mueller,_2012.jpg\">WIKIMEDIA</a>"
 ---
 Russian interference in our elections is a serious and controversial issue that has resulted in [35 indictments or guilty pleas](https://www.vox.com/policy-and-politics/2018/2/20/17031772/mueller-indictments-grand-jury). President Donald Trump has called the investigation a “witch hunt,” and it is a highly divisive issue. It is important to understand what is happening, how the investigation started, who has been impacted by the investigation and what might happen next.

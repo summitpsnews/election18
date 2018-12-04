@@ -9,6 +9,7 @@ tags:
 - News
 - Expeditions
 - Sports
+- Community
 ---
 At Summit Preparatory Charter High School, the Expeditions team offers a class that goes to the Riekes Center to work out. On March 14, students from Everest Public High School and Summit Preparatory Charter High School participated in the National Walkout
 Day to protest gun violence.

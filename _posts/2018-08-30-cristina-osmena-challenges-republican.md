@@ -7,6 +7,7 @@ authors:
 tags:
 - Daly City
 - News
+- Election
 ---
 Cristina Osmeña, a congressional candidate for the 14th District in California, is a strong Republican – but she’s not your typical GOP candidate. She’s a proud Filipina immigrant and defines herself as a centrist, neither extremely conservative or liberal.  
 

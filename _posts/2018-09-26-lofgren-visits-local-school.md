@@ -4,9 +4,8 @@ authors:
 - C.M. Bateman
 tags:
 - Expeditions
-- Multimedia
 - News
-- Tahoma
+- Election
 cover-caption: "The students who participated in the press conference take a picture with Rep. Zoe Lofgren to commemorate the event. PHOTO CREDIT: Angela Nguyen"
 ---
 U.S. Rep. Zoe Lofgren, who represents California’s 19th Congressional District, believes young people hold the power in determining which direction the country is heading toward.

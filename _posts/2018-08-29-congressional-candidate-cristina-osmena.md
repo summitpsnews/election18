@@ -6,6 +6,7 @@ authors:
 tags:
 - Daly City
 - News
+- Election
 cover-caption: "Summit Shasta Journalism Team in a press conference with Congressional candidate, Cristina Osmeña. PHOTO CREDIT: Alana Tutasi"
 ---
 Ms. Osmeña came to Summit Shasta on Aug. 23 for a mock press conference with students from the journalism class. During the press conference, Ms. Osmeña offered her opinions and policies about fiscal conservatism and immigration control. She also gives

@@ -8,6 +8,7 @@ authors:
 tags:
 - Daly City
 - News
+- Election
 cover-caption: "Congressional candidate Cristina Osmena answers a question from one of the student journalists. PHOTO CREDIT: Ethaniel Reyes"
 ---
 Cristina Osmeña, who is running to represent the 14th Congressional District of California against Democratic opponent Jackie Speier, 

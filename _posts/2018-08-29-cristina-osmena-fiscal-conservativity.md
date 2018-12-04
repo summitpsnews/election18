@@ -6,6 +6,7 @@ authors:
 tags:
 - Daly City
 - News
+- Election
 cover-caption: "Shasta junior Zachary Navarra asks Congressional candidate Cristina Osmeña a question. PHOTO CREDIT: Brian Bodestyne"
 ---
 

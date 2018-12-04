@@ -6,6 +6,7 @@ authors:
 tags:
 - Daly City
 - News
+- Election
 cover-caption: "Students of the Summit New take notes on a question Cristina Osmena answered from a student reporter. PHOTO CREDIT: Darren Macario"
 ---
 Congressional candidate Cristina Osmeña wants to be an advocate for the values of District 14 and District 14 only. Ms. Osmeña believes that she would be a great candidate because she will be a voice for the people.

@@ -7,9 +7,9 @@ authors:
 - Karla Tran
 - Jasmine Villegas
 tags:
-- Multimedia
 - News
-- Rainier
+- San Jose
+- Election
 ---
 The process of voting for candidates who believe in our ideals of government is difficult, and it can be challenging to identify who is the right candidate. In this video, a few staff members from Summit Public School: Rainier talk about voting and what obstacles stood in their way when choosing their candidates. They discuss what makes a good or bad candidate and what difficulties there might be in voting.
 

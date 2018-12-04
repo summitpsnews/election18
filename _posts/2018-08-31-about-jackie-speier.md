@@ -4,6 +4,7 @@ authors:
 - Massimo Sibillo
 tags:
 - Daly City
+- Election
 ---
 Jackie Speier, who is the incumbent for the 14th district of California, has a new challenger running for representative, Cristina Osmena. 
 Jackie as of now, [focuses on Women's rights, privacy, consumer safety, advocate for immigration, and affordable health care](https://speier.house.gov/). 

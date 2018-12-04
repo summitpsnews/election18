@@ -7,6 +7,7 @@ authors:
 tags:
 - Daly City
 - News
+- Election
 ---
 14th district California Congressional candidate Cristiña Osmena has conflicted feelings on immigration in the United States. She believes in stricter immigration policies and wants stronger borders; however, she herself is an immigrant.
 

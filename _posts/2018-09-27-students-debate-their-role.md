@@ -4,9 +4,8 @@ authors:
 - Nethan Sivarapu
 - Maxwell Taniguchi-King
 tags:
-- Multimedia
 - News
-- Tahoma
+- Election
 ---
 While much of the world’s attention has been drawn toward the approaching midterm elections in November, a vast body of individuals seems to have been overlooked: students. We began exploring this set of voices as the midterms neared.
 

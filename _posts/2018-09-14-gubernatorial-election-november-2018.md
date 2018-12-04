@@ -4,7 +4,7 @@ authors:
 - Judy Ly
 tags:
 - San Jose
-- Rainier
+- Election
 ---
 Democrat Gavin Newsom and Republican John Cox won the primary election and are now going against each other in California’s gubernatorial election this November. 
 

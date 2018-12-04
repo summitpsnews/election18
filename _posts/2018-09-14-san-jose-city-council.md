@@ -4,7 +4,7 @@ authors:
 - Keith Dinh
 tags:
 - San Jose
-- Rainier
+- Election
 ---
 Many of the politicians in San Jose have made a difference for everyone in the past and are still making differences as we speak. These people have been through the hard process of campaigning, and many of them have needed to get closer to the voters and make themselves seem as if they were average people, trying to make a difference. To do this, many of them share their own personal life stories as to how they have come to be here, and many of them also talk about their past careers and qualifications. This article will shed light and touch on how some of these city politicians have gotten to where they are now, what their beliefs are, and how they aim to influence society some of their goals and accomplishments for society.
 
