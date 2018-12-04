@@ -9,10 +9,8 @@
     <link rel="icon" href="https://image.ibb.co/i68wQz/summit_logo.png" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/article.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/overall.css" type="text/css" />
-    {% for sheet in page.extraCSS %}
-        <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
-    {% endfor %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/overall.css" type="text/css" /> {% for sheet in page.extraCSS %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %}
 </head>
 
 <body>
@@ -20,18 +18,11 @@
     <div class="topnav">
         <a class="home" href="{{ site.baseurl }}/">Home</a>
         <a class="about" href="{{ site.baseurl }}/about.html">About</a>
-        <div class="dropdown2">
-            <input id="input" class="dropbtn2" type="text" placeholder="Search Articles...">
-            <ul class="myUL">
-                <div class="dropdown-content2">
-                    {% for post in site.posts %}
-                    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </div>
-            </ul>
-        </div>
+        <form action="{{ site.baseurl }}/search.html">
+            <input type="text" name="query" placeholder="Search Articles..."/>
+            <input type="submit" value="Search"/>
+        </form>
     </div>
-    <script type="text/javascript" src="{{ site.baseurl }}/interaction/search.js"></script>
     <div class="fillBackground">
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/journalism.jpg" class="center"></img></a>
 

@@ -84,13 +84,24 @@
 
 /* Style the search box inside the navigation bar */
 
-.topnav input[type=text] {
+.topnav form {
     float: right;
-    padding: 6px;
-    border: none;
     margin-top: 8px;
     margin-right: 16px;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    border: none;
     font-size: 17px;
+    margin-right: 0;
+}
+
+.topnav input[type=submit] {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    margin-left: 0;
 }
 
 .myUL {
