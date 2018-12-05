@@ -1,11 +1,19 @@
 ---
 layout: main
+title: Search Articles
 ---
 <h2>Search all articles</h2>
-<input type="text" id="query" placeholder="Search Articles..."/><button id="search">Search</button> - <span id="resultcount">0</span> results
-<div class="recent-articles">
+    <input type="text" id="query" placeholder="Search Articles..."/><button id="search">Search</button> - <span id="resultcount">0</span> results<br>
+<form name="sort">
+    Sort:
+    <label for="sort-recent"><input type="radio" name="sort" id="sort-recent" value="recent" checked>Recent</label>
+    <label for="sort-old"><input type="radio" name="sort" id="sort-old" value="old">Old</label>
+    <label for="sort-title"><input type="radio" name="sort" id="sort-title" value="title">Title</label>
+    <label for="sort-author"><input type="radio" name="sort" id="sort-author" value="author">Author</label>
+</form>
+<div class="article-list-sortable">
     {% for post in site.posts %}
-        <div class="box">
+        <div class="box" style="order: {{ forloop.index }};">
             <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets{{ post.id }}/cover.jpg" width=250px height=250px style="object-fit: cover"></a>
             <div class="textbox">
                 <h3>
@@ -14,7 +22,7 @@ layout: main
                     </a>
                 </h3>
                 <h5>
-                    By {{ post.authors | array_to_sentence_string }}
+                    Posted on <span data-date-number="{{ post.date }}">{{ post.date | date_to_long_string: "ordinal", "US" }}</span> by <span>{{ post.authors | array_to_sentence_string }}</span>
                 </h5>
                 <h5 style="font-style: normal">
                     Tags: {% for tag in post.tags %}
@@ -40,20 +48,20 @@ layout: main
             if (query === ""
             // please don't break, this it is very specific
             ||  article.children[1].children[0].children[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
-            ||  article.children[1].children[1].textContent.toLowerCase().substr(10).indexOf(query.toLowerCase()) != -1
+            ||  article.children[1].children[1].children[1].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
             ||  article.children[1].children[2].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1
             ||  article.children[1].children[3].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) {
-                article.style = "";
+                article.style.display = "";
                 found++;
             } else {
-                article.style = "display: none";
+                article.style.display = "none";
             }
         });
         resultcount.textContent = found;
         if (found) {
-            notfound.style = "display: none";
+            notfound.style.display = "none";
         } else {
-            notfound.style = "";
+            notfound.style.display = "";
         }
     }
     try{
@@ -68,5 +76,49 @@ layout: main
         if (e.key != "Enter" && e.key != "Return") return;
         history.pushState({},"","?query=" + document.getElementById("query").value.replace(/ /g,"+")); /*global history*/
         displayResults(document.getElementById("query").value);
+    });
+    
+    let sortMethod = "load";
+    let sortFunctions = {
+        recent: (a, b) => {
+            let x = b.children[1].children[1].children[0].getAttribute("data-date-number");
+            let y = a.children[1].children[1].children[0].getAttribute("data-date-number");
+            if (x < y) return -1;
+            if (x > y) return 1;
+            return 0;
+        },
+        old: (a, b) => {
+            let x = a.children[1].children[1].children[0].getAttribute("data-date-number");
+            let y = b.children[1].children[1].children[0].getAttribute("data-date-number");
+            if (x < y) return -1;
+            if (x > y) return 1;
+            return 0;
+        },
+        title: (a, b) => {
+            let x = a.children[1].children[0].children[0].textContent.toLowerCase();
+            let y = b.children[1].children[0].children[0].textContent.toLowerCase();
+            if (x < y) return -1;
+            if (x > y) return 1;
+            return 0;
+        },
+        author: (a, b) => {
+            let x = a.children[1].children[1].children[1].textContent.toLowerCase();
+            let y = b.children[1].children[1].children[1].textContent.toLowerCase();
+            if (x < y) return -1;
+            if (x > y) return 1;
+            return 0;
+        }
+    };
+    function sort(method) {
+        if (method == sortMethod) return;
+        sortMethod = method;
+        articles.map(a => a).sort(sortFunctions[method]).forEach((article, index) => {
+            article.style.order = index;
+        });
+    }
+    sort("recent");
+    sortMethod = "recent";
+    document.forms.sort.addEventListener('click', e => {
+        sort(document.forms.sort.sort.value);
     });
 </script>
