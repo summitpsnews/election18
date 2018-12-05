@@ -46,11 +46,11 @@ title: Search Articles
         let found = 0;
         articles.forEach(article => {
             if (query === ""
-            // please don't break, this it is very specific
-            ||  article.children[1].children[0].children[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
-            ||  article.children[1].children[1].children[1].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
-            ||  article.children[1].children[2].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1
-            ||  article.children[1].children[3].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) {
+            // please don't break this, it is very specific
+            ||  article.children[1].children[0].children[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1 // title
+            ||  article.children[1].children[1].children[1].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1 // author
+            ||  article.children[1].children[2].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1 // tags
+            ||  article.children[1].children[3].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) { // excerpt
                 article.style.display = "";
                 found++;
             } else {
