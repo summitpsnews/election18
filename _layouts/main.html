@@ -16,17 +16,54 @@
 <body>
     <!--Top Navigation Bar-->
     <div class="topnav">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <a href="{{ site.baseurl }}/about.html">About</a>
+        <div class="topnav-separator"></div>
+        <div class="dropdown">
+            <a class="dropbtn">Articles <span class="icon-arrow icon-arrow-down"></span></a>
+            <div class="dropdown-content">
+                <a href="{{ site.baseurl }}/tags/election.html">Election</a>
+                <a href="{{ site.baseurl }}/tags/community.html">Community</a>
+                <a href="{{ site.baseurl }}/tags/expeditions.html">Expeditions</a>
+                <a href="{{ site.baseurl }}/tags/arts.html">Arts</a>
+                <a href="{{ site.baseurl }}/tags/sports.html">Sports</a>
+                <div class="dropdown-submenu">
+                    <a class="dropbtn-submenu">Locations <span class="icon-arrow icon-arrow-right"></span></a>
+                    <div class="dropdown-content">
+                        <a href="{{ site.baseurl }}/tags/daly-city.html">Daly City</a>
+                        <a href="{{ site.baseurl }}/tags/redwood-city.html">Redwood</a>
+                        <a href="{{ site.baseurl }}/tags/san-jose.html">San Jose</a>
+                    </div>
+                </div>
+                <a href="{{ site.baseurl }}/tags/news.html">News</a>
+                <a href="{{ site.baseurl }}/tags/opinion.html">Opinion</a>
+            </div>
+        </div>
+        <div class="right">
+            <form action="{{ site.baseurl }}/search.html">
+                <input class="search-box" type="text" name="query" placeholder="Search Articles..."/>
+                <input class="search-button" type="submit" value="Search"/>
+            </form>
+        </div>
+    </div>
+    <!--<div class="topnav">
         <a class="home" href="{{ site.baseurl }}/">Home</a>
         <a class="about" href="{{ site.baseurl }}/about.html">About</a>
-        <form action="{{ site.baseurl }}/search.html">
-            <input type="text" name="query" placeholder="Search Articles..."/>
-            <input type="submit" value="Search"/>
-        </form>
+        <div class="right" style="float: right;">
+            <div class="dropdown">
+                <span class="dropbtn">Tags</span>
+                <div class="dropdown-content">
+                    <a href="{{ site.baseurl }}/tags/daly-city.html">DALY CITY</a>
+                    <a href="{{ site.baseurl }}/tags/redwood-city.html">REDWOOD CITY</a>
+                    <a href="{{ site.baseurl }}/tags/san-jose.html">SAN JOSE</a>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="fillBackground">
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/journalism.jpg" class="center"></img></a>
 
-        <!--Navigation bar-->
+        <!--Navigation bar-- >
         <ul class="navbar">
             <a href="{{ site.baseurl }}/">
                 <li class="home">HOME</li>
