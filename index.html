@@ -29,7 +29,10 @@ extraCSS:
                 </a>
                 <h6>
                     <i>
-                        Posted on {{ post.date | date_to_long_string: "ordinal", "US" }} by {{ post.authors | array_to_sentence_string }}
+                        Posted on {{ post.date | date_to_long_string: "ordinal", "US" }} by 
+                        {% for author in post.authors %}
+                            <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% unless forloop.last %},{% endunless %}
+                        {% endfor %}
                     </i>
                 </h6>
                 <h6>

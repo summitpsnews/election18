@@ -40,6 +40,10 @@ defaults:
     path: "assets/articles/markdown-demo"
   values:
     published: "false"
+- scope:
+    path: "authors"
+  values:
+    layout: "author"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -54,3 +58,4 @@ exclude:
   - vendor/ruby/
   - .c9/
   - push_to_hostgator.sh
+  - author-page-template.html

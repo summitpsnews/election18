@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/article.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/overall.css" type="text/css" /> {% for sheet in page.extraCSS %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %} {% for sheet in layout.extraCSS %}
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %}
 </head>
 
