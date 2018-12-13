@@ -1,48 +1,68 @@
 ---
 layout: main
 title: Search Articles
+extraCSS:
+- articleList
 ---
 <h2>Search all articles</h2>
-    <input type="text" id="query" placeholder="Search Articles..."/><button id="search">Search</button> - <span id="resultcount">0</span> results<br>
-<form name="sort">
-    Sort:
-    <label for="sort-recent"><input type="radio" name="sort" id="sort-recent" value="recent" checked>Recent</label>
-    <label for="sort-old"><input type="radio" name="sort" id="sort-old" value="old">Old</label>
-    <label for="sort-title"><input type="radio" name="sort" id="sort-title" value="title">Title</label>
-    <label for="sort-author"><input type="radio" name="sort" id="sort-author" value="author">Author</label>
-</form>
+<style>
+    .search-controls {
+        margin-bottom: 30px;
+        padding: 15px;
+    }
+    .search-controls .search-box {
+        margin-right: 4px;
+    }
+    form[name="sort"] {
+        float: right;
+        padding: 5px;
+    }
+</style>
+<div class="search-controls card">
+    <input type="text" id="query" class="search-box" placeholder="Search Articles..."/><button id="search" class="search-button">Search</button> - <span id="resultcount">0</span> results
+    <form name="sort">
+        Sort:
+        <label for="sort-recent"><input type="radio" name="sort" id="sort-recent" value="recent" checked>Recent</label>
+        <label for="sort-old"><input type="radio" name="sort" id="sort-old" value="old">Old</label>
+        <label for="sort-title"><input type="radio" name="sort" id="sort-title" value="title">Title</label>
+        <label for="sort-author"><input type="radio" name="sort" id="sort-author" value="author">Author</label>
+    </form>
+</div>
 <div class="article-list-sortable">
     {% for post in site.posts %}
-        <div class="box" style="order: {{ forloop.index }};">
-            <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets{{ post.id }}/cover.jpg" width=250px height=250px style="object-fit: cover"></a>
-            <div class="textbox">
-                <h3>
-                    <a href="{{ site.baseurl }}{{ post.url }}" class="link">
-                        {{ post.title }}
-                    </a>
-                </h3>
-                <h5>
-                    Posted on <span data-date-number="{{ post.date }}">{{ post.date | date_to_long_string: "ordinal", "US" }}</span> by <span>
-                        {% for author in page.authors %}
-                            <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% unless forloop.last %},{% endunless %}
-                        {% endfor %}
-                    </span>
-                </h5>
-                <h5 style="font-style: normal">
+        <div class="list-article card" style="order: {{ forloop.index }};">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="list-article-cover">
+                <img class="img-card" src="{{ site.baseurl }}/assets{{ post.id }}/cover.jpg"></img>
+            </a>
+            <div class="list-article-text">
+                <a class="list-article-title" href="{{ site.baseurl }}{{ post.url }}">
+                    {{ post.title }}
+                </a>
+                <div class="list-article-date" data-date="{{ post.date }}">
+                    Posted on {{ post.date | date_to_long_string: "ordinal", "US" }}
+                </div>
+                <div class="list-article-authors">
+                    By 
+                    {% for author in post.authors %}
+                        <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                </div>
+                <div class="list-article-tags">
                     Tags: {% for tag in post.tags %}
                         <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
                     {% endfor %}
-                </h5>
-                <p>
+                </div>
+                <div class="list-article-excerpt">
                     {{ post.excerpt }}
-                </p>
+                </div>
+                <a class="list-article-readmore" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
             </div>
         </div>
     {% endfor %}
 </div>
 <div id="notfound">No articles match that search.</div>
 <script type="text/javascript">
-    let articles = [...document.getElementsByClassName("box")];
+    let articles = [...document.getElementsByClassName("list-article")];
     let notfound = document.getElementById("notfound");
     let resultcount = document.getElementById("resultcount");
     
@@ -51,10 +71,10 @@ title: Search Articles
         articles.forEach(article => {
             if (query === ""
             // please don't break this, it is very specific
-            ||  article.children[1].children[0].children[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1 // title
-            ||  article.children[1].children[1].children[1].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1 // author
-            ||  article.children[1].children[2].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1 // tags
-            ||  article.children[1].children[3].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) { // excerpt
+            ||  article.getElementsByClassName("list-article-title")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
+            ||  article.getElementsByClassName("list-article-authors")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
+            ||  article.getElementsByClassName("list-article-tags")[0].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1
+            ||  article.getElementsByClassName("list-article-excerpt")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) {
                 article.style.display = "";
                 found++;
             } else {
@@ -68,9 +88,7 @@ title: Search Articles
             notfound.style.display = "";
         }
     }
-    try{
     displayResults(window.location.search.substr(7).replace(/\+/g, " "));
-    } catch (e) {alert(e);}
     document.getElementById("query").value = window.location.search.substr(7).replace(/\+/g, " ");
     document.getElementById("search").addEventListener('click', e => {
         history.pushState({},"","?query=" + document.getElementById("query").value.replace(/ /g,"+")); /*global history*/
@@ -85,29 +103,29 @@ title: Search Articles
     let sortMethod = "load";
     let sortFunctions = {
         recent: (a, b) => {
-            let x = b.children[1].children[1].children[0].getAttribute("data-date-number");
-            let y = a.children[1].children[1].children[0].getAttribute("data-date-number");
+            let x = b.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
+            let y = a.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;
         },
         old: (a, b) => {
-            let x = a.children[1].children[1].children[0].getAttribute("data-date-number");
-            let y = b.children[1].children[1].children[0].getAttribute("data-date-number");
+            let x = a.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
+            let y = b.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;
         },
         title: (a, b) => {
-            let x = a.children[1].children[0].children[0].textContent.toLowerCase();
-            let y = b.children[1].children[0].children[0].textContent.toLowerCase();
+            let x = a.getElementsByClassName("list-article-title")[0].textContent.toLowerCase();
+            let y = b.getElementsByClassName("list-article-title")[0].textContent.toLowerCase();
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;
         },
         author: (a, b) => {
-            let x = a.children[1].children[1].children[1].textContent.toLowerCase();
-            let y = b.children[1].children[1].children[1].textContent.toLowerCase();
+            let x = a.getElementsByClassName("list-article-authors")[0].textContent.toLowerCase();
+            let y = b.getElementsByClassName("list-article-authors")[0].textContent.toLowerCase();
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;

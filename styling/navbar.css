@@ -15,7 +15,8 @@
     align-items: center;
     padding: 0 40px;
     height: 50px;
-    background-color: #c0c0c0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 1px #0002;
 }
 
 .right {
@@ -28,20 +29,22 @@
     display: block;
     text-align: center;
     padding: 8px 16px;
-    color: #424A45;
+    color: #777;
 }
 
 /* Change the color of links on hover */
 
-.topnav > a:hover{
-    color: white;
-    background: #aaa;
+.topnav > a:hover, .topnav > a:focus {
+    outline: none;
+    color: #444;
+    background: #eee;
     border-radius: 8px;
 }
 
-.topnav .dropdown:hover > a {
-    color: white;
-    background: #aaa;
+.dropdown:hover .dropbtn, .dropdown:focus .dropbtn, .dropdown:focus-within .dropbtn {
+    outline: none;
+    color: #444;
+    background: #eee;
     border-radius: 8px 8px 0 0;
 }
 
@@ -49,11 +52,18 @@
 
 
 .search-box {
-    padding: 6px;
-    border: none;
+    border: 1px solid lightgrey;
+    padding: 5px;
     font-size: 17px;
     margin-right: 0;
     border-radius: 8px 0 0 8px;
+}
+
+.search-box:focus {
+    /*border: 2px solid #acf;*/
+    outline: none;
+    /*margin-right: -1px;*/
+    background: #f7f7f7;
 }
 
 .search-button {
@@ -62,6 +72,11 @@
     font-size: 17px;
     margin-left: 0;
     border-radius: 0 8px 8px 0;
+}
+
+.search-button:focus {
+    outline: none;
+    background-color: #ccc;
 }
 
 .topnav-separator {
@@ -93,30 +108,35 @@
     position: relative;
 }
 
-.topnav > a .icon-arrow, .topnav .dropdown > a .icon-arrow {
-    border-bottom-color: grey;
-    border-right-color: grey;
+
+.dropdown > .dropbtn .icon-arrow {
+    border-bottom-color: #888;
+    border-right-color: #888;
 }
 
-.topnav > a:hover .icon-arrow, .topnav .dropdown:hover > a .icon-arrow {
-    border-bottom-color: white;
-    border-right-color: white;
+.dropdown:hover > .dropbtn .icon-arrow,
+.dropdown:focus > .dropbtn .icon-arrow,
+.dropdown:focus-within > .dropbtn .icon-arrow {
+    border-bottom-color: #555;
+    border-right-color: #555;
 }
 
-.dropdown-content > a .icon-arrow, .dropdown-content .dropdown-submenu > a .icon-arrow {
-    border-bottom-color: #ccc;
-    border-right-color: #ccc;
+.dropdown-submenu > .dropbtn-submenu .icon-arrow {
+    border-bottom-color: #777;
+    border-right-color: #777;
 }
 
-.dropdown-content > a:hover .icon-arrow, .dropdown-content .dropdown-submenu:hover > a .icon-arrow {
-    border-bottom-color: white;
-    border-right-color: white;
+.dropdown-submenu:hover > .dropbtn-submenu .icon-arrow,
+.dropdown-submenu:focus > .dropbtn-submenu .icon-arrow,
+.dropdown-submenu:focus-within > .dropbtn-submenu .icon-arrow {
+    border-bottom-color: #555;
+    border-right-color: #555;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #666;   
+    background-color: #ccc;   
     min-width: 145px;
     box-shadow: 0px 8px 16px 0px #0004;
     z-index: 1;
@@ -132,7 +152,7 @@
 .dropdown-content a {
     display: block;
     text-align: left;
-    color: #ccc;
+    color: #666;
 }
 
 .dropdown-content > a:first-child {
@@ -143,21 +163,32 @@
     border-radius: 0 0 8px 8px;
 }
 
-.dropdown-content a:hover, .dropdown-submenu:hover > a {
-    color: white;
-    background: #888;
+.dropdown-content a:hover,
+.dropdown-content a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a,
+.dropdown-submenu:focus-within > a {
+    outline: none;
+    color: #444;
+    background: #ddd;
 }
 
-.dropdown:hover > .dropdown-content, .dropdown-submenu:hover > .dropdown-content {
+.dropdown:hover > .dropdown-content,
+.dropdown:focus > .dropdown-content,
+.dropdown:focus-within > .dropdown-content,
+.dropdown-submenu:hover > .dropdown-content,
+.dropdown-submenu:focus > .dropdown-content,
+.dropdown-submenu:focus-within > .dropdown-content {
     display: block;
 }
 
 #sidebar {
     position: sticky; /* this works trust me */
     float: right;
-    top: 0;
-    height: 100vh;
-    width: 300px;
-    padding: 15px 15px;
+    top: 25px;
+    height: calc(100vh - 50px);
+    width: 275px;
+    margin: 25px;
+    padding: 7px 15px;
     box-sizing: border-box;
 }

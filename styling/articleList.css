@@ -1,0 +1,69 @@
+.list-article {
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.list-article-cover {
+    display: inline-block;
+    width: 250px;
+    margin-right: 25px;
+}
+
+.list-article-cover img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.list-article-text {
+    display: inline-block;
+    width: calc(100% - 280px);
+    height: 250px;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+}
+
+.list-article-title {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: black;
+}
+
+.list-article-title:hover {
+    color: grey;
+}
+
+.list-article-authors, .list-article-tags, .list-article-date {
+    font-size: 0.75em;
+    font-style: italic;
+    color: grey;
+    text-indent: 1em;
+    margin: 0.5em;
+}
+
+.list-article-authors a, .list-article-tags a {
+    color: grey;
+}
+
+.list-article-authors a:hover, .list-article-tags a:hover {
+    color: black;
+}
+
+.list-article-readmore {
+    color: grey;
+    text-align: center;
+    padding: 40px 1px 10px;
+    display: block;
+    background: linear-gradient(to bottom, transparent, 10%, white 70%, white);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.article-list-sortable {
+    display: flex;
+    flex-flow: column;
+}

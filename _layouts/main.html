@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }}</title>
     <link rel="icon" href="https://image.ibb.co/i68wQz/summit_logo.png" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/article.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/overall.css" type="text/css" /> {% for sheet in page.extraCSS %}
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %} {% for sheet in layout.extraCSS %}
@@ -21,7 +20,7 @@
         <a href="{{ site.baseurl }}/about.html">About</a>
         <div class="topnav-separator"></div>
         <div class="dropdown">
-            <a class="dropbtn">Articles <span class="icon-arrow icon-arrow-down"></span></a>
+            <a class="dropbtn" tabindex=0>Articles <span class="icon-arrow icon-arrow-down"></span></a>
             <div class="dropdown-content">
                 <a href="{{ site.baseurl }}/tags/election.html">Election</a>
                 <a href="{{ site.baseurl }}/tags/community.html">Community</a>
@@ -29,7 +28,7 @@
                 <a href="{{ site.baseurl }}/tags/arts.html">Arts</a>
                 <a href="{{ site.baseurl }}/tags/sports.html">Sports</a>
                 <div class="dropdown-submenu">
-                    <a class="dropbtn-submenu">Locations <span class="icon-arrow icon-arrow-right"></span></a>
+                    <a class="dropbtn-submenu" tabindex=0>Locations <span class="icon-arrow icon-arrow-right"></span></a>
                     <div class="dropdown-content">
                         <a href="{{ site.baseurl }}/tags/daly-city.html">Daly City</a>
                         <a href="{{ site.baseurl }}/tags/redwood-city.html">Redwood</a>
@@ -106,8 +105,8 @@
             </a>
         </ul>
     </div>-->
-    <div id="sidebar">
-        <a class="twitter-timeline" data-width="270" data-height="570" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/summitpsnews?ref_src=twsrc%5Etfw">Tweets by summitpsnews</a>
+    <div id="sidebar" class="card">
+        <a class="twitter-timeline" data-width="280" data-height="550" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/summitpsnews?ref_src=twsrc%5Etfw">Tweets by summitpsnews</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     <div id="pageContent">
