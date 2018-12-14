@@ -59,3 +59,10 @@ exclude:
   - .c9/
   - push_to_hostgator.sh
   - author-page-template.html
+  - deploy.sh
+  - now-prod.json
+  - deploy-dev.sh
+  - now-dev.json
+  - Rakefile
+  - regenerate-author-pages.sh
+  - static.json
