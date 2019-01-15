@@ -58,7 +58,7 @@ When asked about the feasibility of living in the Bay Area on a teacher’s sala
 
 Ms. Rodriguez said that housing costs played no role in her decision to teach in the Bay Area “because when I moved from New York to San Jose I was looking at job/school where I am closer to my family. So I didn’t really think about the costs of moving to the Bay Area. I was paying more for a two-bedroom apartment in Japan Town than a four-bedroom apartment in East Harlem; it was a shift in how much rent I needed to pay each month.”
 
-<img src = "https://lh3.googleusercontent.com/X9j2XWgOPgbc-m63cmjpwYQ7QW0XQeA8IlGYrz7UgT0jgcE2uuteWsiWLgjPl1agsH-r2KObvJYVBKpKF9xWonUR80vmPZIdDI4Zehz2GR9abVUax3WURPd9Dm1l4jms5KGgz7jvV0acY0AWGV2W8fB1n1JwfRvuWKQaG7Vl-A6RdUd1ZGrwMlvv7vBZkFdQan43jVntSHXW29Yw1XtSukRB-FlSPGiIKKQ3EQSOnZ66vb7mtqYzNqstEgRwuK_JGHCqKNZVSMOW94mKXCWD9EfmkA12HYYwbx9BYd5RMzfdXagXJiHOn9f3nZlwjkneXHjQO6LFW_7J5UDIKRkPUHAqntDKyWCvX3HSJ3VU0_QiN7RENezY0QfJVvi1I3D2566rRqb-PRPQnnxfYtx7WaoFG6FeT1EIPzD-tIMRoErSfHivI9_eOm07V3uStxsLJ1hfqT_EbgkX-Hoy3SH-B7i9oQhXysivcMjh1zXR_6TV5U4Nk4l0HjDWa4WzAwuaTA8dXvt3C4n4N34bGFthATspt0R4-H4xrpk8U1_dMf1oXloWJPVGjwUjAaytw3JTd0wDh-sWIzbcvogldXfFLQbAEsFwdM6SkYszsst9YSd4nyDZtHkA-jkgEBiEW4nKfQa2JjhgGDC-1yt3Tc8jQzq5QAlxut4yEWL5JKIx-aBK88USyb3xHOFiMPwOnvhKWrOAXPvzJWJo-PfOTA=w180-h291-no" style = "float: left">
+![](https://lh3.googleusercontent.com/X9j2XWgOPgbc-m63cmjpwYQ7QW0XQeA8IlGYrz7UgT0jgcE2uuteWsiWLgjPl1agsH-r2KObvJYVBKpKF9xWonUR80vmPZIdDI4Zehz2GR9abVUax3WURPd9Dm1l4jms5KGgz7jvV0acY0AWGV2W8fB1n1JwfRvuWKQaG7Vl-A6RdUd1ZGrwMlvv7vBZkFdQan43jVntSHXW29Yw1XtSukRB-FlSPGiIKKQ3EQSOnZ66vb7mtqYzNqstEgRwuK_JGHCqKNZVSMOW94mKXCWD9EfmkA12HYYwbx9BYd5RMzfdXagXJiHOn9f3nZlwjkneXHjQO6LFW_7J5UDIKRkPUHAqntDKyWCvX3HSJ3VU0_QiN7RENezY0QfJVvi1I3D2566rRqb-PRPQnnxfYtx7WaoFG6FeT1EIPzD-tIMRoErSfHivI9_eOm07V3uStxsLJ1hfqT_EbgkX-Hoy3SH-B7i9oQhXysivcMjh1zXR_6TV5U4Nk4l0HjDWa4WzAwuaTA8dXvt3C4n4N34bGFthATspt0R4-H4xrpk8U1_dMf1oXloWJPVGjwUjAaytw3JTd0wDh-sWIzbcvogldXfFLQbAEsFwdM6SkYszsst9YSd4nyDZtHkA-jkgEBiEW4nKfQa2JjhgGDC-1yt3Tc8jQzq5QAlxut4yEWL5JKIx-aBK88USyb3xHOFiMPwOnvhKWrOAXPvzJWJo-PfOTA=w180-h291-no)
 *Tahoma physics teacher Elizabeth Rodriguez*
 
 When asked if she would support a proposal for the school she teaches at, Ms. Rodriguez said, “This is a really tough decision; while it seems like an answer to a big problem, it is ignoring the biggest problem in the area. We need to evaluate the amount we are paying teachers. In the short-term, it will work for some teachers; but in the long-term, it is not feasible. In the long-term, our education department in California should reevaluate the amount we are paying teachers.
@@ -71,7 +71,7 @@ Kevin Franey, a history teacher at Summit Tahoma, said, “The current rate that
 
 Mr. Franey talked about the role housing costs played in his decision to teach in the Bay Area: “I can’t say that it played a major role. My wife and I were moving out here, and I knew I wanted to teach. Had I come out here by myself it would not have been possible, because we are a dual-income household it was possible.”
 
-<img src = "https://summitpsnewsorg.files.wordpress.com/2017/10/mr-franey-cropped.jpg?w=180&h=159&zoom=2"style = "float:right">
+![](https://summitpsnewsorg.files.wordpress.com/2017/10/mr-franey-cropped.jpg?w=180&h=159&zoom=2)
 *Tahoma history teacher Kevin Franey*
 
 Mr. Franey supports the proposal for affordable housing: “I think the Bay Area needs more affordable housing, especially for teachers. If those sites are not needed for schools anymore, it makes sense to use them for housing.”
