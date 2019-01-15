@@ -1,5 +1,13 @@
+<<<<<<< Updated upstream
 .tag-grid {
     margin-top: 30px;
+=======
+.fillBackground{
+    background-color: #b3b3cc;
+}
+.center {
+    margin: auto;
+>>>>>>> Stashed changes
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
