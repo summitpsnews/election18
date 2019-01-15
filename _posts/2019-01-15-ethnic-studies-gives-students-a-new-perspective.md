@@ -1,7 +1,8 @@
 ---
-title: Ethnic Studies gives students a new perspective
+title: Having a mentor group means having a second family to Tahoma students
 authors:
-- Cyrus Shakeri 
+- Jannaya Garcia 
+- Priya Kaur
 tags:
 - Community
 - Opinion
