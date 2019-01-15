@@ -19,7 +19,7 @@ San Jose Unified has proposed to build affordable housing for teachers on some o
 ![](https://lh3.googleusercontent.com/cY-BhsaNzFvBcf70TtCMrLIJicCVOceaKy4oK-o3LwEn05IHGJJdvZXRgHnuJA2HVRa8dl_e9TXHKG3tqWPJEwq6uk9_oyxcfITjKTcHdHN-meXibgdAg6iQH_6vde1-A4NfDzXM5uWhIDPGEE5q7FM56C30693fHJDxwrhDXDMk7srCldzEI_hYCeG9ARtSUjZGXrc55n3vG69ibzuMQYkE6olkHl-T_RghhM0ujhiuLlCChxKP3ujvc-z5quoxXoR0iWRuwIOws2KNEFe2zbKWlAl2yF30iOG2nn9tYg0zAg3xdMMuEF4n_A1I5Q_9uTI6Mn1NRDDGhfQgwRs_GTuiM06qZU6xiDwrG9MUfWD9H1IQhFmHSaaZETb7u0iOqoAS3eqitenJ-YVOKzJc620HjLagBeETwza_yf0eFcLSsMIOKMON-0tXsSY8GjoCRNg3Zec8rsw42yUEq0735WBjyyys9DoQ-CN1G0gMzcG0C_CD0RgNuNrXQ-gpm1gsE8mfrCn2R73vG_DZHWkPqUByhGDqjKFsip4CW5Q87NiY42ZWsNxv4ycuMAXis_FQE69sF0s7XXbJI7sjwh-crFGwcxGhMmPFeFwzineCC-oGau0I6Bljh3_cc8NMcywUO6kPUgnoJcoK4URIuGzdhGXllxMIVzfVdxxcsl0SdlHW8Zl3LqNx7pSZPw0JSacS_oguRhSgCSwJkHniKA=w747-h448-no)
 *San Jose and national statistics about housing and income*
 
-**In [San Jose Unified’s Master Plan for San Jose Unified Properties](https://agendaonline.net/public/Meeting/Attachments/DisplayAttachment.aspx?AttachmentID=909677&IsArchive=0), the document talks about the issues the proposal is addressing: **
+In [San Jose Unified’s Master Plan for San Jose Unified Properties](https://agendaonline.net/public/Meeting/Attachments/DisplayAttachment.aspx?AttachmentID=909677&IsArchive=0), the document talks about the issues the proposal is addressing:
 
 > “Among the most pressing challenges resulting from today’s changes is our area’s cost of living. Silicon Valley is becoming more unaffordable for more and more people in our community. San Jose Unified is feeling this acutely. Bus driver, teacher, administrator–San Jose Unified has vacant positions throughout the district”
 
