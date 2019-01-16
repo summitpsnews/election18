@@ -7,8 +7,6 @@ tags:
 - Community
 ---
 
-**Staff Writer**
-
 Students here at Tahoma are actively involved in sports, from volleyball to soccer. A popular discussion is how these sports affect students’ lives, both academically and socially.
 
 Mikaela Zavala, a senior soccer player at Tahoma, spoke with us about how sports affected her. She talked about how during freshman year sports helped her academically because she needed good grades to play, but they declined after the season. In her years since, she’s had good grades year-round, which soccer helped motivate.

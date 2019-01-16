@@ -8,8 +8,6 @@ tags:
 - Community
 ---
 
-**Staff Writers**
-
 At Summit Tahoma, the Human Sexuality Expeditions course put up posters around the campus saying, “Be Yourself Out Loud And Proud,” “The Heart Wants What It Wants” and more encouraging words.
 
 Rebecca Breuer, the Human Sexuality teacher, talked about the inspiration behind these posters. She explained that the project was based around an interview. The students had to talk to three students, one of which had to identify as LGBTQ. “I wanted to make sure it didn’t just stop in the classroom, that the whole Tahoma community could see the support that we had, so we tacked on just making a poster just to have that extra visual representation of making it very clear that this has to be a safe space for absolutely everyone,” Ms. Breuer explained. 

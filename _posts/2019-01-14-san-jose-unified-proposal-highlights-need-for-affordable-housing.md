@@ -6,8 +6,6 @@ tags:
 - Community
 ---
 
-**Tahoma City Editor**
-
 All across California affordable housing is a major issue, especially for teachers. To address this problem, Santa Clara Unified has [built](https://www.sfchronicle.com/education/article/Teacher-housing-helps-educators-stay-put-amid-7463584.php) 90 affordable housing units for teachers. A similar idea has been proposed in San Jose Unified that has met strong opposition from local residents.
 
 Housing is a major issue in San Jose. According to the [U.S. Census,](https://www.census.gov/quickfacts/fact/table/sanjosecitycalifornia,US/PST045217) the median value of a house in San Jose from 2013-17 was $714,200, while the national median value of a house from 2013-17 was $193,500. The median income in San Jose is $96,662; the national median income is $57,652. Figures from the [National Center for Education Statistics](https://nces.ed.gov/programs/digest/d17/tables/dt17_211.60.asp) state that the national average teacher pay is $58,950. San Jose pays their teachers more than the average, according to [Glassdoor.com](https://www.glassdoor.com/Salaries/san-jose-teacher-salary-SRCH_IL.0,8_IM761_KO9,16.htm), which estimates that San Jose pays their teachers on average $71,009. San Jose teachers cannot afford houses in San Jose based on those statistics.

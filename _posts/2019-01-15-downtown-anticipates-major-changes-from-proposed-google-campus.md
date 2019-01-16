@@ -6,8 +6,6 @@ tags:
 - Community
 ---
 
-**Tahoma Editor-in-Chief**
-
 In December, the San Jose City Council agreed to sell over 10 acres of the downtown region to build a new Google campus. The proposed campus aims to positively renovate the infrastructure and strengthen the core of the city; however, the Google village has also sparked fear and anger from San Jose residents and business owners, specifically from those located in or around the land parcels sold to the organization during the negotiations.
 
 The [proposed project](https://www.mercurynews.com/2018/05/23/google-village-in-downtown-san-jose-would-connect-local-neighborhoods-company-vows/) would stretch from the south tip of the San Jose Market Center to W San Carlos Street, curving along the railways leading to the Diridon Station and Autumn Street on the parallel side. The campus includes plans to open up space to the neighboring communities with cultural walking areas, various entertainment and dining establishments, as well as residential and office space for up to 20,000 Google employees.

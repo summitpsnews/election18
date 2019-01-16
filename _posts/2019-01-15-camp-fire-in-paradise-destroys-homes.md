@@ -9,8 +9,6 @@ tags:
 - Community
 ---
 
-**Staff Writers**
-
 After the destructive fire in Paradise Valley, Jeanette Krzyzek was the only one of her family left with a standing house. Born and raised in Paradise, Mrs. Krzyzek knew almost everyone in town. She had moved out of the town to Chico before the fires started, but her family hadn’t. As a result, her family alone lost a total of 10 homes to the flames.
 
 The fire that destroyed Mrs. Krzyzek’s hometown was named the “Camp Fire,” and it is one of the most destructive fires in California history. The fire started on Nov. 8, at 6:29 in the morning, according to the [Camp Fire Incident Update](http://cdfdata.fire.ca.gov/admin8327985/cdf/images/incidentfile2277_4326.pdf) made on Nov. 25. The fire started at Pulga and Camp Creek Road and continued to spread rapidly through Butte County.

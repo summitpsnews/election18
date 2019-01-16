@@ -6,8 +6,6 @@ tags:
 - Community
 ---
 
-**Staff Writer**
-
 Many problems have been occurring regarding race and immigrants. More and more controversial topics seem to be coming to light every day. There have been innocent killings of [African-American males](https://www.theguardian.com/world/2010/jul/09/oscar-grant-oakland-police-shooting) and desperate [immigrants from Honduras](https://www.cnbc.com/2018/10/22/scenes-of-the-caravan-as-honduran-migrants-push-north.html) trying to get into the United States. Most schools don’t converse about these topics. However, recently schools have been adopting a new class called Ethnic Studies. In this course, students are tasked with correctly dealing with situations regarding race and controversy. Students learn about historical figures of color and parts of the timeline that are not traditionally taught in school history classes. 
 
 Angel Barragan, the teacher for Ethnic Studies, talked about how young people might react differently compared to older people: “I feel like older people often think more about what they say, and I believe younger people react faster to these situations.”
