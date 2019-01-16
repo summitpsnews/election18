@@ -7,7 +7,6 @@ authors:
 - Jacob Silva
 tags:
 - Community
-- Opinion
 ---
 
 As you enter the campus of Summit Tahoma and KIPP: Navigate, two charter schools, you see portables to the right of the Oak Grove High School buildings. If you walk through the KIPP campus, you see signs above the classes. The signs list values such as courage, innovation, reflection, collaboration and leadership. If you make your way down further into the campus, you see Summit Tahoma portables with brightly colored classroom doors.

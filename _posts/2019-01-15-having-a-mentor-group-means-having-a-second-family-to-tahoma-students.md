@@ -5,7 +5,6 @@ authors:
 - Priya Kaur
 tags:
 - Community
-- Opinion
 ---
 
 **Staff Writer**

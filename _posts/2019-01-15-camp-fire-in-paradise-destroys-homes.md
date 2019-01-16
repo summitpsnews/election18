@@ -7,7 +7,6 @@ authors:
 - Polina Runova
 tags:
 - Community
-- Opinion
 ---
 
 **Staff Writers**

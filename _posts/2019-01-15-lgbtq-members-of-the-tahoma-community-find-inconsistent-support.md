@@ -6,7 +6,6 @@ authors:
 - Joshua Rivera 
 tags:
 - Community
-- Opinion
 ---
 
 **Staff Writers**

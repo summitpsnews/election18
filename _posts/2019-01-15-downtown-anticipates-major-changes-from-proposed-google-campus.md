@@ -4,7 +4,6 @@ authors:
 - C.M. Bateman
 tags:
 - Community
-- Opinion
 ---
 
 **Tahoma Editor-in-Chief**

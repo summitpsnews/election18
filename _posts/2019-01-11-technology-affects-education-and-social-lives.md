@@ -4,7 +4,6 @@ authors:
 - Avi Mehra
 tags:
 - Community
-- Opinion
 ---
 
 Faris Khetto, a sophomore at Summit Tahoma, has been greatly affected greatly by technology. His father often gave him death and suicide threats. “He used to be really aggressive towards me, and he threatened to kill me a couple times,” he told Summit News. One day, Faris felt that he would have really died. “I felt that he was actually going to really hurt me,” he said, “like I would be dead.”

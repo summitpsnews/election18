@@ -4,7 +4,6 @@ authors:
 - Jacob Kahn-Samuelson
 tags:
 - Community
-- Opinion
 ---
 
 **Tahoma City Editor**

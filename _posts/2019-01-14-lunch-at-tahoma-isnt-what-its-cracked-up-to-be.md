@@ -7,7 +7,6 @@ authors:
 - Caden Vu
 tags:
 - Community
-- Opinion
 ---
 
 “It looks like prison food, and the fact that it is the same price as buying a meal at McDonald’s … makes it even more insulting to pay for.” This is a response that was taken from a school-wide survey distributed to understand how the Tahoma students feel about the school lunch. Many of the students dislike the school lunch with a passion.

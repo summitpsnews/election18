@@ -4,7 +4,6 @@ authors:
 - Cyrus Shakeri
 tags:
 - Community
-- Opinion
 ---
 
 **Staff Writer**
