@@ -96,23 +96,6 @@
     border: 2px solid transparent;
 }
 
-.dropdown {
-    width: 103px;
-    display: inline-block;
-    /*border-left: 1px solid #424A45;*/
-}
-
-.dropdown .dropbtn {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    background-color: #67F0E2;
-    color: #424A45;
-}
-
 .icon-arrow-down {
     transform: translateY(-3px) rotate(45deg);
 }
