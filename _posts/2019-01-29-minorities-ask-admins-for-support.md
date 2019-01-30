@@ -5,7 +5,7 @@ authors:
 - Evangeline Si
 tags:
 - Community
-- Denali
+- Sunnyvale
 - Opinion
 ---
 

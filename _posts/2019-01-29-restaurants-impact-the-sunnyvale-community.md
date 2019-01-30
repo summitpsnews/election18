@@ -5,7 +5,7 @@ authors:
 - Alan Rivera
 - Michael Stavnitser
 tags:
-- Denali
+- Sunnyvale
 - News
 ---
 

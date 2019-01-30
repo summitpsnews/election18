@@ -7,7 +7,7 @@ authors:
 - Diego Quintero
 tags:
 - Arts
-- Denali
+- Sunnyvale
 - Expeditions
 ---
 
