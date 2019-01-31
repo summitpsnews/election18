@@ -7,6 +7,7 @@ authors:
 tags:
 - Sunnyvale
 - News
+- Community
 ---
 
 Once entering a Sunnyvale restaurant, you see colorful walls with paintings on them. You can smell the food being cooked. You will see employees cooking, taking orders, and smiling.

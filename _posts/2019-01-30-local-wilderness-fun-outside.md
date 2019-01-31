@@ -10,6 +10,7 @@ tags:
 - Community
 cover-caption: "Denali freshman Cesar Perez (left) and Expeditions teacher Vaughan Wilkins (right) practice sword throwing."
 ---
+
 As the teacher plays the drums, the students must follow by sound. During the game called Blink Drum Stalk, the leader has a drum and the other students put on blindfolds and try to follow the leader by sound. This develops sensory awareness, a skill that the Local Wilderness students work to perfect.
 
 Steal the Keys is another sensory awareness game that the class plays. In this game, one person sits in the middle blindfolded with eyes in front of them, and the other people sit around him in a circle. The people around him try to steal the keys one at a time, trying to be quiet; if the person in the middle hears them and points to them, then they have to go back. This works on students’ ears and gets the most out of their hearing ability.

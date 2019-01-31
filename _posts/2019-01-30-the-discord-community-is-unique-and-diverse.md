@@ -7,6 +7,7 @@ authors:
 tags:
 - Opinion
 - Sunnyvale
+- Community
 ---
 
 Louis Parks’ first experience with Discord was a few years ago in the summer of 2016, around one year after Discord’s release, when a few of his friends on Skype were urging him to make a Discord account. At first, he didn’t switch, but a few days later the peer pressure from everybody else switching had convinced him to try it out. After a few days of usage, he had adjusted to Discord and preferred the cleaner application over Skype. At this time, the only chats he was in were with friends who played Minecraft with him. At first, he didn’t really use it, but now he uses daily.
