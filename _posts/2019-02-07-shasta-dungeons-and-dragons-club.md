@@ -44,4 +44,4 @@ The D&D Club at Summit Shasta provides a unique experience for students to come 
 </select>
 <button id = "roll">Roll!</button>
 <div id = "results"></div>
-<script type="text/javascript" src="../interaction/diceroller.js"></script>
+<script type="text/javascript" src="/interaction/diceroller.js"></script>
