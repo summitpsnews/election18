@@ -1,5 +1,4 @@
 ---
----
 title: Newcomer Deniz Bolbol wants all Belmont residents to be heard
 authors:
 - Eliza Insley
