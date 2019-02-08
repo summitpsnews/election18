@@ -1,5 +1,5 @@
 ---
-title: Sports form communtiy 
+title: Sports form community 
 authors:
 - Matthew Goncalves
 - Ethaniel Reyes
