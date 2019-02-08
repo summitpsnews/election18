@@ -1,5 +1,5 @@
 ---
-title: Shasta Art Expeditions impacts the lives of students
+title: Shasta Dungeons and Dragons Club provides a unique experience
 authors:
 - Albert Chang-Yoo 
 - Zachary Navarra
