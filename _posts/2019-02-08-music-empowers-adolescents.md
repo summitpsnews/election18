@@ -8,7 +8,7 @@ tags:
 - Arts
 - Community
 - News
-- Shasta
+- Daly City
 ---
 Music surrounds us in our daily lives. We hear it on the radio on our way to school or work, on our phones, in restaurants; we hear music everywhere. Music holds the power to influence mood and behavior in people. Music impacts our lives in ways we don’t even realize. We all know that music is just there; we don’t realize how much music has been a part of our daily lives and how music helps shape who we are as a person.
 

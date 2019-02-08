@@ -1,5 +1,5 @@
 ---
-title: Sports Form Communtiy 
+title: Sports form communtiy 
 authors:
 - Matthew Goncalves
 - Ethaniel Reyes
@@ -8,7 +8,7 @@ tags:
 - Sports
 - Community
 - News
-- Shasta
+- Daly City
 ---
 Sports are physical activities that involve individual teams competing against each other in order to appeal to certain fans, and they are also used to entertain people. Some of these sports include soccer, basketball, baseball and football. Although these sports are used for entertainment, they are also able to create an opportunity for people to bond with others, which creates a sense of community at school, and it doesn’t matter if you’re a fan or if you’re a player. We at Summit News decided to ask people in our community our essential question: How has sports impacted society and the way people work together in society? This is a question that needed to be answered.
 

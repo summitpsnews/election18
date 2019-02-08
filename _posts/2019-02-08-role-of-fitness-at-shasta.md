@@ -7,7 +7,7 @@ tags:
 - Sports
 - Community
 - News
-- Shasta
+- Daly City
 ---
 Summit Shasta is known for its self-directed curriculum and its lack of a physical education system. A few students and faculty feel as if this should be fixed.
 

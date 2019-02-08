@@ -8,7 +8,7 @@ tags:
 - Arts
 - Community
 - News
-- Shasta
+- Daly City
 ---
 A teen girl had lost herself in a dark time in her life. She turned to music, which brought her joy during that time, and found herself again. She used music as an outlet for her emotions and started a club at Summit Shasta, Music Club, for teens like her to do the same.
 
