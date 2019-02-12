@@ -6,7 +6,8 @@ authors:
 tags:
 - Arts
 - News
-- Shasta
+- COmmunity
+- Daly City
 ---
 
 Here at Summit Public Schools: Shasta, the Intermediate Visual Arts and the Intro to Visual Arts teacher is Meridith Burchiel, and the Intro to Video Production teacher is Vincent Nelson. In these classes, students work on making videos, scripts, drawings, paintings and being creative.

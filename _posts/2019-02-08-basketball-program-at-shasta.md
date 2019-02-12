@@ -8,7 +8,7 @@ tags:
 - Sports
 - Community
 - News
-- Shasta
+- Daly City
 ---
 Sports are an important part of the high school experience. The basketball program is particularly influential in the Summit Shasta school community. How do student basketball players contribute to the Shasta community?
 
