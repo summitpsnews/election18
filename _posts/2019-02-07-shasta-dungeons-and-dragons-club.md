@@ -7,7 +7,7 @@ tags:
 - Arts
 - Community
 - News
-- Shasta
+- Daly City
 ---
 Imagine fighting off a monstrous dragon with your flaming battle axe. Your best friend and a total stranger stand by you, weapons in hand ready for their last stand. With the role of the dice, the battle begins.
 
@@ -32,6 +32,7 @@ Hernandez believes that “stereotypes do have a large role to play in why femal
 The D&D Club at Summit Shasta provides a unique experience for students to come together in a creative unconstricted setting. It encourages teamwork and imaginative thinking that leads to a fun time. In the words of Hernandez: “D&D is a place where friends and strangers alike can come together to die trying to feed a dragon a hot pocket.
 
 <iframe width="940" height="529" src="https://www.youtube.com/embed/RhyVNV_-GDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Dungeons and Dragons Dice Roller:**
 <input id="diceCount" placeholder="How many dice?"/>
 <select id = "dieType">
     <option>d4</option>
