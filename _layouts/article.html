@@ -3,6 +3,9 @@ layout: main
 extraCSS:
 - article
 ---
+<div class="article-title">
+    {{ page.title }}
+</div>
 <div class="article-date">
     Posted on {{ page.date | date_to_long_string: "ordinal", "US" }}
 </div>
