@@ -4,7 +4,8 @@ authors:
 - Judy Ly
 tags:
 - News
-- Rainier
+- San Jose
+cover-caption: "The reporter (far right) is pictured with Lissa Thiele and her Respect Lab interns: (left to right) Prep senior Robert Wilds, Everest alumni Emily Hallamasek, Rainier senior Taylor Amper, Commissioner Lissa Thiele, Everest senior Bella and Rainier senior Allison Alpuerto."
 ---
 Imagine being afraid to come to school every day because a male student is stalking and harassing you on a daily basis. Imagine being too scared to reach out for help from your mom because she has been diagnosed with stage four cancer and your father is absent.
 
@@ -85,7 +86,5 @@ There were also three videos briefly shown during the workshop. The first one wa
 When asked what her favorite part of the workshop was, UCSC Career Coach Christina Hall said hearing the student stories: “It’s so inspiring to be there when somebody is in this moment of courage and they’re really sort of like willing to put themselves out there, because if these things happen to them, something similar has happened to other people, and, I think the more you hear stories about these things, the more it’s normalized.” She also said she hopes that as more of these stories get told, more people realize they are not alone and can ask for help.
 
 After the workshop, Maria Viveros, a second-year UCSC transfer student who is majoring in neuroscience said, “I just felt that like being a woman of color also connected — I was also connected to that part of it because I felt that we, as woman in this society, face many barriers in that aspect and even though we have different stories, many of those barriers that we do face are very similar. If you’re a woman of color, if you are an unrepresented person or just undocumented and just living in poverty all those are very — aspects that many, many people could connect to, and I feel like that’s what makes us connected to one another.”
-
-***Featured image (at the top of this post):*** The reporter (far right) is pictured with Lissa Thiele and her Respect Lab interns: (left to right) Prep senior Robert Wilds, Everest alumni Emily Hallamasek, Rainier senior Taylor Amper, Commissioner Lissa Thiele, Everest senior Bella and Rainier senior Allison Alpuerto.
 
 ***Click this [link](https://docs.google.com/presentation/d/1dB0SOR8ohjs6QMJ-I0ohVF3-5uOWDHYN7tMcRoFozpY/edit?usp=sharing) for the Google slides used in the workshop.***
