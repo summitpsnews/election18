@@ -5,7 +5,11 @@
 
 #pageContent {
     padding: 0.5em 4% 2%;
-    margin-right: 300px;
+    margin-top: 20px;
+    margin-right: 23%;
+}
+#pageContent.nosidebar {
+    margin-right: 0;
 }
 
 .topnav {
@@ -187,8 +191,9 @@
     float: right;
     top: 25px;
     height: calc(100vh - 50px);
-    width: 275px;
-    margin: 25px;
+    width: 23%;
+    margin: 2%;
     padding: 7px 15px;
     box-sizing: border-box;
+    overflow: hidden;
 }

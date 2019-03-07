@@ -1,5 +1,5 @@
 .article-title {
-    margin: 20px 0 10px;
+    margin: 0 0 10px;
     font-weight: bold;
     font-size: 1.75em;
     color: black;
@@ -23,10 +23,13 @@
 
 .article-body {
     margin-top: 25px;
+    line-height: 1.4;
 }
 
 .article-cover {
     margin-bottom: 5px;
+    width: 100%;
+    height: auto;
 }
 
 .article-authors2 {
@@ -64,9 +67,8 @@ img.right, img.right + em {
     clear: right;
 }
 
-.article-cover {
-    width: 100%;
-    height: auto;
+.article-cover-caption {
+    width: 100% !important;
 }
 
 blockquote {
@@ -93,4 +95,9 @@ twitterwidget::before {
     display: block;
     clear: both;
     height: 1.5em;
+}
+
+iframe[src*="youtube"] {
+    width: 65vw;
+    height: 36.5625vw;
 }
