@@ -10,7 +10,7 @@ authors:
 tags:
 - San Jose
 - Opinion
-cover-caption: "On Feb. 27, female students were required to line up in the rain during brunch to wait for the restroom to be u32nlocked. PHOTO CREDIT: Keith Dinh"
+cover-caption: "On Feb. 27, female students were required to line up in the rain during brunch to wait for the restroom to be unlocked. PHOTO CREDIT: Keith Dinh"
 ---
 Summit Public School: Rainier has implemented a new restroom policy in which students receive green passes per semester that allow them to use the restroom a set amount of times per class. After these passes run out, students are no longer able to use the restrooms during class time unless it is an extreme emergency. In extreme emergency situations, teachers are to notify other teachers and staff that the student is allowed to leave; the student must also speak to multiple adults in order to get access to the restroom. When students want to go to the restroom, they must: have a pass signed by their teacher; get the restroom key– which is attached to a five gallon water jug– from the office if a teacher is not present in the quad to open the door; then use the restroom; return the key; then return to class.
 
