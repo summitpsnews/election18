@@ -19,10 +19,14 @@
     <script src="{{ site.baseurl }}/interaction/external/bootstrap-4-navbar.min.js"></script>
 
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/main.css" type="text/css" /> {% for sheet in page.extraCSS %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %} {% for sheet in layout.extraCSS %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/main.css" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/sidebar.css" type="text/css" />
+    {% for sheet in page.extraCSS %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
+    {% endfor %}
+    {% for sheet in layout.extraCSS %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
+    {% endfor %}
 </head>
 
 <body>
@@ -70,12 +74,16 @@
         </div>
     </nav>
 
-    <div id="sidebar" class="card">
-        <a class="twitter-timeline" data-width="280" data-height="550" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/summitpsnews?ref_src=twsrc%5Etfw">Tweets by summitpsnews</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-    <div id="pageContent">
-        {{ content }}
+    <div class="row" style="margin-top: 50px">
+        <div class="col-md-8 ml-md-5">
+            {{ content }}
+        </div>
+        <div class="col-md-3 d-none d-md-block">
+            <div id="sidebar" class="card">
+                <a class="twitter-timeline" data-width="280" data-height="550" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/summitpsnews?ref_src=twsrc%5Etfw">Tweets by summitpsnews</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
     </div>
 </body>
 

@@ -1,5 +1,6 @@
-/* This file contains styles that apply to ALL PAGES IN THE SITE */
+/* Styles apply to ALL PAGES */
 
+/* Sets default font settings and bg color */
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;

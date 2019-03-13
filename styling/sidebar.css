@@ -1,0 +1,13 @@
+/* Styles apply to right sidebar */
+
+/* Sets the sidebar to be stickied to the right side of the screen */
+#sidebar {
+    position: sticky; /* this works trust me */
+    position: -webkit-sticky;
+    top: 75px;
+    height: calc(100vh - 50px);
+    width: 100%;
+    margin: 25px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+}
