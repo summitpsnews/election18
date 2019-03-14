@@ -21,6 +21,7 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/main.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/sidebar.css" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
     {% for sheet in page.extraCSS %}
         <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
     {% endfor %}
@@ -39,13 +40,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+                <li class="nav-item nav-separator">
                     <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item nav-separator dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="articlesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articles</a>
                     <ul class="dropdown-menu" aria-labelledby="articlesDropdown">
                         <li><a href="{{ site.baseurl }}/tags/election.html" class="dropdown-item">Election</a></li>
@@ -67,8 +68,8 @@
                     </ul>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="form-inline my-2 my-lg-0" action="{{ site.baseurl }}/search.html">
+                <input class="form-control mr-sm-2" name="query" type="search" placeholder="Search articles..." aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>

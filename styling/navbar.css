@@ -1,0 +1,14 @@
+.nav-separator {
+    border-left: 1px solid black;
+    border-image: linear-gradient(to bottom, transparent, #0002, #0002, transparent) 1;
+}
+
+.nav-item {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 5px 1px #0002;
+}
