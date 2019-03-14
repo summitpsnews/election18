@@ -1,0 +1,22 @@
+.search-box {
+    border: 1px solid lightgrey;
+    padding: 5px;
+    font-size: 17px;
+    margin-right: 4px;
+}
+
+.search-controls {
+    box-shadow: 0 2px 5px 1px #0002;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+form[name="sort"] {
+    float: right;
+    padding: 5px;
+}
+
+#results {
+    font-size: 110%;
+}
