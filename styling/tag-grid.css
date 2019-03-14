@@ -18,6 +18,10 @@
     margin-top: 15px;
 }
 
+.tag-grid-card {
+    margin-top: 15px;
+}
+
 @media (min-width: 767px) {
     .tag-grid-card {
         padding: 25px;
