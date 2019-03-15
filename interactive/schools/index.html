@@ -1,0 +1,103 @@
+---
+layout: main
+nosidebar: true
+title: Schools
+---
+<style>
+    #map {
+        position: relative;
+    }
+    #mapbackground {
+        width: 100%;
+        z-index: -1;
+    }
+    #summitlink {
+        position: absolute;
+        /*display: block;*/
+        right: 0;
+        top: -6px;
+        width: 14.4%;
+    }
+    #summitlogo {
+        width: 100%;
+        filter: drop-shadow(1px 2px 3px #0004);
+        transition: 0.2s;
+        transform-origin: top right;
+    }
+    #map a:not(#summitlink) {
+        position: absolute;
+        display: block;
+        width: 11.3%;
+        height: 10%;
+    }
+    .label {
+        width: 100%;
+        position: absolute;
+        filter: drop-shadow(1px 2px 3px #0004);
+        top: 0;
+        left: 0;
+        transition: 0.2s;
+        transform-origin: inherit;
+    }
+    .pin {
+        width: 26%;
+        position: absolute;
+        filter: drop-shadow(1px 2px 3px #0004);
+    }
+    #map a:hover .label, #summitlink:hover #summitlogo {
+        transform: scale(1.1);
+        filter: drop-shadow(1px 3px 4px #0004);
+    }
+    #prep {
+        left: 18.2%; top: 1.5%;
+        transform-origin: 61% 100%;
+    }
+    #prep .pin {
+        left: 47%; top: 96%;
+    }
+    #everest {
+        left: 25.2%;top: 18.9%;
+        transform-origin: 0% 0%;
+    }
+    #everest .pin {
+        left: -10%; top: -12%;
+    }
+    #rainier {
+        left: 67.8%; top: 44.3%;
+        transform-origin: 64% 100%;
+    }
+    #rainier .pin {
+        left: 50%; top: 99%;
+    }
+    #tahoma {
+        left: 66.8%; top: 73%;
+        transform-origin: 50% 90%;
+    }
+    #tahoma .pin {
+        left: 45%; top: 105%;
+    }
+</style>
+<div class="card">
+    <div id="map">
+        <img id="mapbackground" src="{{site.baseurl}}/assets/interactive/schools/map.png"></img>
+        <a id="summitlink" href="//summitps.org">
+            <img id="summitlogo" src="{{site.baseurl}}/assets/interactive/schools/summitlogo.png"></img>
+        </a>
+        <a id="prep" href="prep">
+            <img class="label" src="{{site.baseurl}}/assets/interactive/schools/prep.png"></img>
+            <img class="pin" src="{{site.baseurl}}/assets/interactive/schools/pin.png"></img>
+        </a>
+        <a id="everest" href="everest">
+            <img class="label" src="{{site.baseurl}}/assets/interactive/schools/everest.png"></img>
+            <img class="pin" src="{{site.baseurl}}/assets/interactive/schools/pin.png"></img>
+        </a>
+        <a id="rainier" href="rainier">
+            <img class="label" src="{{site.baseurl}}/assets/interactive/schools/rainier.png"></img>
+            <img class="pin" src="{{site.baseurl}}/assets/interactive/schools/pin.png"></img>
+        </a>
+        <a id="tahoma" href="tahoma">
+            <img class="label" src="{{site.baseurl}}/assets/interactive/schools/tahoma.png"></img>
+            <img class="pin" src="{{site.baseurl}}/assets/interactive/schools/pin.png"></img>
+        </a>
+    </div>
+</div>

@@ -4,10 +4,10 @@
 #sidebar {
     position: sticky; /* this works trust me */
     position: -webkit-sticky;
-    top: 95px;
-    height: calc(100vh - 50px);
+    top: 105px;
+    height: calc(97vh - 120px - 1.5rem);
     width: 100%;
-    margin: 25px;
+    margin: 25px 25px 1.5rem;
     padding: 7px 15px;
     box-sizing: border-box;
     box-shadow: 0 2px 5px 1px #0002;

@@ -17,3 +17,12 @@
     background-color: #fff !important;
     box-shadow: 0 2px 5px 1px #0002;
 }
+
+/* Media query for small screen sizes */
+@media (max-width: 767px) {
+    .nav-separator {
+        border-left: none;
+        border-top: 1px solid black;
+        border-image: linear-gradient(to right, transparent, #0002 10%, #0002 90%, transparent) 1;
+    }
+}

@@ -9,26 +9,28 @@ extraCSS:
 <div class="search-controls card">
     <div class="row">
         <div class="form-inline">
-            <input type="text" id="query" class="form-control ml-3 search-box" placeholder="Search Articles..."/>
+            <input type="text" id="query" class="form-control ml-3 mr-1" placeholder="Search Articles..."/>
             <button id="search" class="btn btn-outline-success mx-md-1 ml-3 my-3 my-md-0">Search</button>
             <span id="results">
                 &nbsp;-&nbsp;<span id="resultcount">0</span>&nbsp;results
             </span>
         </div>
-        <div class="btn-group btn-group-toggle ml-3 ml-md-auto mr-md-3" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-                <input type="radio" name="sort" id="sort-recent" value="recent" autocomplete="off" checked> Recent
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="sort" id="sort-old" value="old" autocomplete="off"> Old
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="sort" id="sort-title" value="title" autocomplete="off"> Title
-            </label>
-            <label class="btn btn-secondary">
-                <input type="radio" name="sort" id="sort-author" value="author" autocomplete="off"> Author
-            </label>
-        </div>
+        <form class="ml-3 ml-md-auto mr-md-3" name="sort">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="sort" id="sort-recent" value="recent" autocomplete="off" checked> Recent
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="sort" id="sort-old" value="old" autocomplete="off"> Old
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="sort" id="sort-title" value="title" autocomplete="off"> Title
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="sort" id="sort-author" value="author" autocomplete="off"> Author
+                </label>
+            </div>
+        </form>
     </div>
 </div>
 <div class="article-list-sortable">
@@ -38,7 +40,7 @@ extraCSS:
 </div>
 <div id="notfound">No articles match that search.</div>
 <script type="text/javascript">
-    let articles = [...document.getElementsByClassName("list-article")];
+    let articles = [...document.getElementsByClassName("article")];
     let notfound = document.getElementById("notfound");
     let resultcount = document.getElementById("resultcount");
     
@@ -47,10 +49,10 @@ extraCSS:
         articles.forEach(article => {
             if (query === ""
             // please don't break this, it is very specific
-            ||  article.getElementsByClassName("list-article-title")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
-            ||  article.getElementsByClassName("list-article-authors")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
-            ||  article.getElementsByClassName("list-article-tags")[0].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1
-            ||  article.getElementsByClassName("list-article-excerpt")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) {
+            ||  article.getElementsByClassName("article-title")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
+            ||  article.getElementsByClassName("article-authors")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1
+            ||  article.getElementsByClassName("article-tags")[0].textContent.toLowerCase().substr(6).indexOf(query.toLowerCase()) != -1
+            ||  article.getElementsByClassName("article-excerpt")[0].textContent.toLowerCase().indexOf(query.toLowerCase()) != -1) {
                 article.style.display = "";
                 found++;
             } else {
@@ -79,29 +81,29 @@ extraCSS:
     let sortMethod = "load";
     let sortFunctions = {
         recent: (a, b) => {
-            let x = b.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
-            let y = a.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
+            let x = b.getElementsByClassName("article-date")[0].getAttribute("data-date");
+            let y = a.getElementsByClassName("article-date")[0].getAttribute("data-date");
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;
         },
         old: (a, b) => {
-            let x = a.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
-            let y = b.getElementsByClassName("list-article-date")[0].getAttribute("data-date");
+            let x = a.getElementsByClassName("article-date")[0].getAttribute("data-date");
+            let y = b.getElementsByClassName("article-date")[0].getAttribute("data-date");
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;
         },
         title: (a, b) => {
-            let x = a.getElementsByClassName("list-article-title")[0].textContent.toLowerCase();
-            let y = b.getElementsByClassName("list-article-title")[0].textContent.toLowerCase();
+            let x = a.getElementsByClassName("article-title")[0].textContent.toLowerCase();
+            let y = b.getElementsByClassName("article-title")[0].textContent.toLowerCase();
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;
         },
         author: (a, b) => {
-            let x = a.getElementsByClassName("list-article-authors")[0].textContent.toLowerCase();
-            let y = b.getElementsByClassName("list-article-authors")[0].textContent.toLowerCase();
+            let x = a.getElementsByClassName("article-authors")[0].textContent.toLowerCase();
+            let y = b.getElementsByClassName("article-authors")[0].textContent.toLowerCase();
             if (x < y) return -1;
             if (x > y) return 1;
             return 0;

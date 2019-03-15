@@ -1,12 +1,6 @@
 /* Styles apply to the search page */
 
-.search-box {
-    border: 1px solid lightgrey;
-    padding: 5px;
-    font-size: 17px;
-    margin-right: 4px;
-}
-
+/* Styling for the box with the search controls */
 .search-controls {
     box-shadow: 0 2px 5px 1px #0002;
     background-color: white;
@@ -14,11 +8,13 @@
     padding: 15px;
 }
 
-form[name="sort"] {
-    float: right;
-    padding: 5px;
-}
-
+/* Increases font size of search result section for easier reading */
 #results {
     font-size: 110%;
+}
+
+/* Allows search items to move around depending on their order */
+.article-list-sortable {
+    display: flex;
+    flex-flow: column;
 }

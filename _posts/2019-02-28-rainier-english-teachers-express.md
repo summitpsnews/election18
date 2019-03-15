@@ -4,7 +4,7 @@ authors:
 - Keith Dinh
 tags:
 - News
-- Rainier
+- San Jose
 ---
 Every day, people speak it; it is read; it is lived. Every day, people around the world live the English language and read its literary works of the present and past. Even today, everyone reads books, stories and even poetry of writers who existed in the time of the Renaissance and writers who are still writing today.
 

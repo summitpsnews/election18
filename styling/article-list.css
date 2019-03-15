@@ -6,6 +6,8 @@
     box-shadow: 0 2px 5px 1px #0002;
     border-radius: 16px;
     background-color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Size and positioning of article image */
@@ -20,8 +22,11 @@ img.article-img {
 .article-text {
     display: inline-block;
     height: 290px;
+    width: calc(100% - 275px);
     vertical-align: top;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
     overflow: hidden;
 }
 
@@ -85,5 +90,10 @@ img.article-img {
     img.article-img {
         width: 100%;
         margin: 0;
+    }
+    
+    .article-text {
+        width: 100%;
+        position: relative;
     }
 }
