@@ -1,3 +1,6 @@
+/* Styles apply to each individual article page */
+
+/* Text and alignment styling for the article title */
 .article-title {
     margin: 20px 0 10px;
     font-weight: bold;
@@ -5,6 +8,7 @@
     color: black;
 }
 
+/* Text and alignment styling for the article authors, tags, and date */
 .article-authors, .article-tags, .article-date {
     font-size: 0.75em;
     font-style: italic;
@@ -13,14 +17,17 @@
     margin: 0.5em;
 }
 
+/* Sets color for author and tag links */
 .article-authors a, .article-tags a {
     color: grey;
 }
 
+/* Sets HOVER color for author and tag links */
 .article-authors a:hover, .article-tags a:hover {
     color: black;
 }
 
+/* Styling for the main content of the article */
 .article-body {
     margin-top: 25px;
     padding: 2vw;
@@ -29,15 +36,18 @@
     background-color: white;
 }
 
+/* Styling for the cover image */
 .article-cover {
     margin-bottom: 5px;
 }
 
+/* Styling for the byline */
 .article-byline {
     font-style: italic;
     margin-bottom: 10px;
 }
 
+/* Styling for images in the content of the article */
 .article-content img {
     width:50%;
     margin: auto;

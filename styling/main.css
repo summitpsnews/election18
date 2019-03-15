@@ -8,6 +8,9 @@ body {
     background-color: #eee;
 }
 
+/* Allows for a small spacing between the bottom of the content and the
+ * bottom of the page
+ */
 #pageContent {
     padding-bottom: 2%;
 }

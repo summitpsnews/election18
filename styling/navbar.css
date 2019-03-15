@@ -1,13 +1,18 @@
+/* Styles apply to the navbar at the top */
+
+/* Vertical separator between nav items. Use on the element to the RIGHT of where you actually want the separator */
 .nav-separator {
     border-left: 1px solid black;
     border-image: linear-gradient(to bottom, transparent, #0002, #0002, transparent) 1;
 }
 
+/* Padding between nav items */
 .nav-item {
     padding-left: .5rem;
     padding-right: .5rem;
 }
 
+/* Bg color and shadow for navbar */
 .navbar {
     background-color: #fff !important;
     box-shadow: 0 2px 5px 1px #0002;
