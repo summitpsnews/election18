@@ -1,8 +1,11 @@
 /* Styles apply to any page with a list of articles (homepage, search, etc.) */
 
-/* Height of each article card */
+/* Height, border radius, and box shadow of each article card */
 .article {
     height: 300px;
+    box-shadow: 0 2px 5px 1px #0002;
+    border-radius: 16px;
+    background-color: white;
 }
 
 /* Size and positioning of article image */

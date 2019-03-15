@@ -10,4 +10,7 @@
     margin: 25px;
     padding: 7px 15px;
     box-sizing: border-box;
+    box-shadow: 0 2px 5px 1px #0002;
+    border-radius: 16px;
+    background-color: white;
 }
