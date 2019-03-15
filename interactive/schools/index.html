@@ -11,14 +11,20 @@ title: Schools
         width: 100%;
         z-index: -1;
     }
-    #summitlogo {
+    #summitlink {
         position: absolute;
+        /*display: block;*/
         right: 0;
         top: -6px;
         width: 14.4%;
-        filter: drop-shadow(1px 2px 3px #0004);
     }
-    #map a {
+    #summitlogo {
+        width: 100%;
+        filter: drop-shadow(1px 2px 3px #0004);
+        transition: 0.2s;
+        transform-origin: top right;
+    }
+    #map a:not(#summitlink) {
         position: absolute;
         display: block;
         width: 11.3%;
@@ -38,8 +44,9 @@ title: Schools
         position: absolute;
         filter: drop-shadow(1px 2px 3px #0004);
     }
-    #map a:hover .label {
+    #map a:hover .label, #summitlink:hover #summitlogo {
         transform: scale(1.1);
+        filter: drop-shadow(1px 3px 4px #0004);
     }
     #prep {
         left: 18.2%; top: 1.5%;
@@ -73,7 +80,9 @@ title: Schools
 <div class="card">
     <div id="map">
         <img id="mapbackground" src="{{site.baseurl}}/assets/interactive/schools/map.png"></img>
-        <img id="summitlogo" src="{{site.baseurl}}/assets/interactive/schools/summitlogo.png"></img>
+        <a id="summitlink" href="//summitps.org">
+            <img id="summitlogo" src="{{site.baseurl}}/assets/interactive/schools/summitlogo.png"></img>
+        </a>
         <a id="prep" href="prep">
             <img class="label" src="{{site.baseurl}}/assets/interactive/schools/prep.png"></img>
             <img class="pin" src="{{site.baseurl}}/assets/interactive/schools/pin.png"></img>
