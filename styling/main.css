@@ -1,0 +1,16 @@
+/* Styles apply to ALL PAGES */
+
+/* Sets default font settings and bg color */
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    background-color: #eee;
+}
+
+/* Allows for a small spacing between the bottom of the content and the
+ * bottom of the page
+ */
+#pageContent {
+    padding-bottom: 3vh;
+}

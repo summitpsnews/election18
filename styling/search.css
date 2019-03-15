@@ -1,0 +1,20 @@
+/* Styles apply to the search page */
+
+/* Styling for the box with the search controls */
+.search-controls {
+    box-shadow: 0 2px 5px 1px #0002;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+/* Increases font size of search result section for easier reading */
+#results {
+    font-size: 110%;
+}
+
+/* Allows search items to move around depending on their order */
+.article-list-sortable {
+    display: flex;
+    flex-flow: column;
+}

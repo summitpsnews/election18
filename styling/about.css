@@ -1,0 +1,9 @@
+/* Styles apply to the about page */
+
+/* Set styling for the about page main content (border radius, bg color, shadow, etc) */
+.about-card {
+    padding: 2vw;
+    box-shadow: 0 2px 5px 1px #0002;
+    border-radius: 16px;
+    background-color: white;
+}

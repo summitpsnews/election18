@@ -1,0 +1,99 @@
+/* Styles apply to any page with a list of articles (homepage, search, etc.) */
+
+/* Height, border radius, and box shadow of each article card */
+.article {
+    height: 300px;
+    box-shadow: 0 2px 5px 1px #0002;
+    border-radius: 16px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Size and positioning of article image */
+img.article-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 25px;
+}
+
+/* Size and positioning of excerpt text */
+.article-text {
+    display: inline-block;
+    height: 290px;
+    width: calc(100% - 275px);
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+/* Size and color of the article title */
+.article-title {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: black;
+}
+
+/* Color of the article title when hovered */
+.article-title:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Removes extra margin below article title */
+.card-title {
+    margin-bottom: 0;
+}
+
+/* Size and color of info text below article title */
+.article-authors, .article-tags, .article-date {
+    font-size: 0.75em;
+    font-style: italic;
+    color: grey;
+    text-indent: 1em;
+    margin: 0.5em;
+}
+
+/* Color of links for author and tags for each article */
+.article-authors a, .article-tags a {
+    color: grey;
+}
+
+/* Color for authors, tags, and readmore text when hovered */
+.article-authors a:hover, .article-tags a:hover, .article-readmore:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Color and positioning of readmore text. Also adds gradient */
+.article-readmore {
+    color: grey;
+    text-align: center;
+    padding: 40px 1px 10px;
+    display: block;
+    background: linear-gradient(to bottom, transparent, 10%, white 70%, white);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* Media query for when screen size is lowered than medium */
+@media (max-width: 767px) {
+    .article {
+        height: auto;
+    }
+    
+    img.article-img {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .article-text {
+        width: 100%;
+        position: relative;
+    }
+}

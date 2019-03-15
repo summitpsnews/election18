@@ -7,117 +7,93 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ page.title }}</title>
     <link rel="icon" href="https://image.ibb.co/i68wQz/summit_logo.png" type="text/css" />
+
+    <!-- Bootstrap 4 requirements -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 4 sub-dropdown menu support -->
+    <link href="{{ site.baseurl }}/styling/external/bootstrap-4-navbar.min.css" rel="stylesheet">
+    <script src="{{ site.baseurl }}/interaction/external/bootstrap-4-navbar.min.js"></script>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/main.css" type="text/css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styling/sidebar.css" type="text/css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/styling/navbar.css" type="text/css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/overall.css" type="text/css" /> {% for sheet in page.extraCSS %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %} {% for sheet in layout.extraCSS %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" /> {% endfor %}
+    {% for sheet in page.extraCSS %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
+    {% endfor %}
+    {% for sheet in layout.extraCSS %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/styling/{{ sheet }}.css" type="text/css" />
+    {% endfor %}
 </head>
 
 <body>
     <!--Top Navigation Bar-->
-    <div class="topnav">
-        <a href="{{ site.baseurl }}/">Home</a>
-        <a href="{{ site.baseurl }}/about.html">About</a>
-        <div class="topnav-separator"></div>
-        <div class="dropdown">
-            <a class="dropbtn" tabindex=0>Articles <span class="icon-arrow icon-arrow-down"></span></a>
-            <div class="dropdown-content">
-                <a href="{{ site.baseurl }}/tags/election.html">Election</a>
-                <a href="{{ site.baseurl }}/tags/community.html">Community</a>
-                <a href="{{ site.baseurl }}/tags/expeditions.html">Expeditions</a>
-                <a href="{{ site.baseurl }}/tags/arts.html">Arts</a>
-                <div class="dropdown-submenu">
-                    <a class="dropbtn-submenu" tabindex=0>Locations <span class="icon-arrow icon-arrow-right"></span></a>
-                    <div class="dropdown-content">
-                        <a href="{{ site.baseurl }}/tags/daly-city.html">Daly City</a>
-                        <a href="{{ site.baseurl }}/tags/redwood-city.html">Redwood City</a>
-                        <a href="{{ site.baseurl }}/tags/san-jose.html">San Jose</a>
-                        <a href="{{ site.baseurl }}/tags/sunnyvale.html">Sunnyvale</a>
-                    </div>
-                </div>
-                <a href="{{ site.baseurl }}/tags/sports.html">Sports</a>
-                <a href="{{ site.baseurl }}/tags/news.html">News</a>
-                <a href="{{ site.baseurl }}/tags/opinion.html">Opinion</a>
-            </div>
-        </div>
-        <div class="topnav-separator"></div>
-        <a href="{{ site.baseurl }}/gallery/">Gallery</a>
-        <div class="right">
-            <form action="{{ site.baseurl }}/search.html">
-                <input class="search-box" type="text" name="query" placeholder="Search Articles..."/>
-                <input class="search-button" type="submit" value="Search"/>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="{{ site.baseurl }}">Summit PS News Magazine</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item nav-separator">
+                    <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
+                </li>
+                <li class="nav-item nav-separator dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="articlesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articles</a>
+                    <ul class="dropdown-menu" aria-labelledby="articlesDropdown">
+                        <li><a href="{{ site.baseurl }}/tags/election.html" class="dropdown-item">Election</a></li>
+                        <li><a href="{{ site.baseurl }}/tags/community.html" class="dropdown-item">Community</a></li>
+                        <li><a href="{{ site.baseurl }}/tags/expeditions.html" class="dropdown-item">Expeditions</a> </li>
+                        <li><a href="{{ site.baseurl }}/tags/arts.html" class="dropdown-item">Arts</a></li>
+                        <li>
+                            <a href="#" class="dropdown-item dropdown-toggle">Locations</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{ site.baseurl }}/tags/daly-city.html" class="dropdown-item">Daly City</a></li>
+                                <li><a href="{{ site.baseurl }}/tags/redwood-city.html" class="dropdown-item">Redwood City</a></li>
+                                <li><a href="{{ site.baseurl }}/tags/san-jose.html" class="dropdown-item">San Jose</a></li>
+                                <li><a href="{{ site.baseurl }}/tags/sunnyvale.html" class="dropdown-item">Sunnyvale</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{ site.baseurl }}/tags/sports.html" class="dropdown-item">Sports</a></li>
+                        <li><a href="{{ site.baseurl }}/tags/news.html" class="dropdown-item">News</a></li>
+                        <li><a href="{{ site.baseurl }}/tags/opinion.html" class="dropdown-item">Opinion</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item nav-separator">
+                    <a class="nav-link" href="{{ site.baseurl }}/gallery.html">Gallery</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="{{ site.baseurl }}/search.html">
+                <input class="form-control mr-sm-2" name="query" type="search" placeholder="Search articles..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
-    </div>
-    <!--<div class="topnav">
-        <a class="home" href="{{ site.baseurl }}/">Home</a>
-        <a class="about" href="{{ site.baseurl }}/about.html">About</a>
-        <div class="right" style="float: right;">
-            <div class="dropdown">
-                <span class="dropbtn">Tags</span>
-                <div class="dropdown-content">
-                    <a href="{{ site.baseurl }}/tags/daly-city.html">DALY CITY</a>
-                    <a href="{{ site.baseurl }}/tags/redwood-city.html">REDWOOD CITY</a>
-                    <a href="{{ site.baseurl }}/tags/san-jose.html">SAN JOSE</a>
-                </div>
+    </nav>
+
+    <div class="row" style="margin-top: 60px">
+        {% if page.nosidebar %}
+        <div id="pageContent" class="col-md-8 ml-md-5 mt-4">
+            {{ content }}
+        </div>
+        {% else %}
+        <div id="pageContent" class="col-md-8 ml-md-5 mt-4">
+            {{ content }}
+        </div>
+        <div class="col-md-3 d-none d-md-block mb-4">
+            <div id="sidebar" class="card">
+                <a class="twitter-timeline" data-width="100%" data-height="100%" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/summitpsnews?ref_src=twsrc%5Etfw">Tweets by summitpsnews</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
-    </div>
-    <div class="fillBackground">
-        <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/journalism.jpg" class="center"></img></a>
-
-        <!--Navigation bar-- >
-        <ul class="navbar">
-            <a href="{{ site.baseurl }}/">
-                <li class="home">HOME</li>
-            </a>
-            <a href="{{ site.baseurl }}/about.html">
-                <li class="about">ABOUT</li>
-            </a>
-            <a href="{{ site.baseurl }}/tags/election.html">
-                <li class="about">ELECTION</li>
-            </a>
-            <a href="{{ site.baseurl }}/tags/community.html">
-                <li class="about">COMMUNITY</li>
-            </a>
-            <a href="{{ site.baseurl }}/tags/news.html">
-                <li class="news">NEWS</li>
-            </a>
-            <a href="{{ site.baseurl }}/tags/opinion.html">
-                <li class="opinion">OPINION</li>
-            </a>
-            <div class="dropdown">
-                <li class="dropbtn">LOCATIONS</li>
-                <div class="dropdown-content">
-                    <a href="{{ site.baseurl }}/tags/daly-city.html">DALY CITY</a>
-                    <a href="{{ site.baseurl }}/tags/redwood-city.html">REDWOOD CITY</a>
-                    <a href="{{ site.baseurl }}/tags/san-jose.html">SAN JOSE</a>
-                </div>
-            </div>
-            <a href="{{ site.baseurl }}/tags/expeditions.html">
-                <li class="expeditions">EXPEDITIONS</li>
-            </a>
-            <a href="{{ site.baseurl }}/tags/arts.html">
-                <li class="arts">ARTS</li>
-            </a>
-            <a href="{{ site.baseurl }}/tags/sports.html">
-                <li class="sports">SPORTS</li>
-            </a>
-            <a href="https://twitter.com/summitpsnews" target="_blank">
-                <li class="twitter">TWITTER</li>
-            </a>
-        </ul>
-    </div>-->
-    {% if page.nosidebar %}
-    <div id="pageContent" class="nosidebar">
-    {% else %}
-    <div id="sidebar" class="card">
-        <a class="twitter-timeline" data-width="100%" data-height="100%" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/summitpsnews?ref_src=twsrc%5Etfw">Tweets by summitpsnews</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-    <div id="pageContent">
-    {% endif %}
-        {{ content }}
+        {% endif %}
     </div>
 </body>
 

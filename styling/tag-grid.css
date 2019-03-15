@@ -1,0 +1,40 @@
+/* Styles apply to the tag grid on the homepage */
+
+/* Makes each tag image take up entire space */
+.tag-grid-img {
+    width: 100%;
+}
+
+/* Styling for the caption for each tag (moves to center and enlarges size, etc.) */
+.tag-grid-caption {
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    width: calc(100% - 50px);
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    text-shadow: 0 1px 4px #0005;
+}
+
+/* Tag grid positioning */
+.tag-grid {
+    margin-top: 15px;
+}
+
+/* Tag grid card mobile friendly styling (remove border radius & shadow, etc.) */
+.tag-grid-card {
+    margin-top: 15px;
+}
+
+/* Tag grid card styling */
+@media (min-width: 767px) {
+    .tag-grid-card {
+        padding: 25px;
+        box-shadow: 0 2px 5px 1px #0002;
+        border-radius: 16px;
+        background-color: white;
+        margin: 10px;
+    }
+}
