@@ -34,4 +34,4 @@ Classic literature is important today, not only because it shows us where we cam
 
 “Reading in general is really important,” Ms. Rivard said. “Most definitely, I am for classic literature in the classroom.”
 
-<iframe width="1000" height="562.5" src="https://www.youtube.com/embed/F1IUghNygh4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
+<iframe width="950" height="562.5" src="https://www.youtube.com/embed/F1IUghNygh4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
