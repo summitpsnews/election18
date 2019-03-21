@@ -93,19 +93,7 @@ To prove how effective GPT-2 is, OpenAI released a few outputs of the AI to the 
 
 The model wrote:
 
->"The incident occurred on the downtown train line, which runs from Covington and Ashland stations.
-
-In an email to Ohio news outlets, the U.S. Department of Energy said it is working with the Federal Railroad Administration to find the thief.
-
-'The theft of this nuclear material will have significant negative consequences on public and environmental health, our workforce and the economy of our nation,' said Tom Hicks, the U.S. Energy Secretary, in a statement. 'Our top priority is to secure the theft and ensure it doesn’t happen again.'
-
-The stolen material was taken from the University of Cincinnati’s Research Triangle Park nuclear research site, according to a news release from Department officials.
-
-The Nuclear Regulatory Commission did not immediately release any information.
-
-According to the release, the U.S. Department of Energy’s Office of Nuclear Material Safety and Security is leading that team’s investigation.
-
-'The safety of people, the environment and the nation’s nuclear stockpile is our highest priority,' Hicks said. 'We will get to the bottom of this and make no excuses.'"
+>"The incident occurred on the downtown train line, which runs from Covington and Ashland stations. In an email to Ohio news outlets, the U.S. Department of Energy said it is working with the Federal Railroad Administration to find the thief. 'The theft of this nuclear material will have significant negative consequences on public and environmental health, our workforce and the economy of our nation,' said Tom Hicks, the U.S. Energy Secretary, in a statement. 'Our top priority is to secure the theft and ensure it doesn’t happen again.' The stolen material was taken from the University of Cincinnati’s Research Triangle Park nuclear research site, according to a news release from Department officials. The Nuclear Regulatory Commission did not immediately release any information. According to the release, the U.S. Department of Energy’s Office of Nuclear Material Safety and Security is leading that team’s investigation. 'The safety of people, the environment and the nation’s nuclear stockpile is our highest priority,' Hicks said. 'We will get to the bottom of this and make no excuses.'" 
 
 In addition to news and articles, the OpenAI model can also generate stories, essays and speeches. When given the prompt:
 
