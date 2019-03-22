@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "temp title"
+title: "Summit campuses reflect on their college readiness"
 authors:
 - Maxwell Taniguchi-King
 - Nethan Sivarapu
