@@ -25,4 +25,4 @@ The ballerinas at DTI are all extremely passionate about their dancing. Any danc
 
 Ballet might look like an effortless and undemanding art, but many underestimate the hard work dancers put into it. Fundamentally, not only does it take excellence in technique and poise, it takes strength, passion, dedication and focus to be a dancer.
 
-<iframe width="1000" height="562.5" src="https://www.youtube.com/embed/IOQIZxtDaDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
+<iframe width="700" height="562.5" src="https://www.youtube.com/embed/IOQIZxtDaDE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
