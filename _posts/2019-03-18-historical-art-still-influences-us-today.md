@@ -36,4 +36,4 @@ Tahoma sophomore Lilith Flowers said that when art is brought up in school, it i
 
 
 
-<iframe width="950" height="562.5" src="https://www.youtube.com/embed/_zt14ufq15M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_zt14ufq15M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>

@@ -54,7 +54,6 @@ Mr. Scicluna also explained that he believes art should be implemented more in s
 
 Art is a creative tool that can be used to help children learn skills that aren’t taught in academic subjects. Echoing Ms. Quintero’s words, “Quality fine arts programs are vital to a child’s education and all children deserve access to such programs.” Art helps kids learn important social skills which will benefit them later in life, thus emphasizing its importance in the educational system.
 
-![](https://summitpsnewsorg.files.wordpress.com/2019/03/mulltimedia-.jpg?w=300&h=225)
+![](https://summitpsnewsorg.files.wordpress.com/2019/03/mulltimedia-.jpg?w=300&h=225){:.right}
 *Visual Arts teacher Mathew Scicluna*
 
-<iframe width="950" height="562.5" src="https://www.youtube.com/embed/_zt14ufq15M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
