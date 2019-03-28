@@ -10,7 +10,7 @@ tags:
 ---
 
 
-ducation takes many forms, such as lectures, reading and homework. Another way people are taught is through the use of art as an educational device. Art can be used to teach people more creative skills and can provide variety from the core school subjects.
+Education takes many forms, such as lectures, reading and homework. Another way people are taught is through the use of art as an educational device. Art can be used to teach people more creative skills and can provide variety from the core school subjects.
 
 Even though it is not treated the same as other subjects, art has been shown to have a positive impact on mental health. [According to Nicola Slawson](https://www.theguardian.com/healthcare-network/2017/oct/11/contribution-arts-make-health-wellbeing), the social affairs journalist at the Guardian, “An evaluation revealed a 71% decrease in feelings of anxiety and a 73% fall in depression; 76% of participants said their well-being increased and 69% felt more socially included.” It’s shown that doing a creative activity, such as art, increases your overall well-being.
 
