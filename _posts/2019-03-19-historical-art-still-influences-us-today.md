@@ -34,6 +34,4 @@ Mr. Scicluna also addressed the artists of today who group up and put up their a
 Tahoma sophomore Lilith Flowers said that when art is brought up in school, it is “most prominent” and that it teaches more life skills than any other class. Flowers additionally said that art from the past has had a large impact on our culture, whether it was our language, mindset or society in general.
 
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_zt14ufq15M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="image"></iframe>
