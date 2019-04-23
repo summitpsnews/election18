@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "Summit campuses reflect on their college readiness"
+title: "Summit Shasta Expiditions Offer Oppritunities"
 authors:
 - Maxwell Taniguchi-King
 - Nethan Sivarapu
