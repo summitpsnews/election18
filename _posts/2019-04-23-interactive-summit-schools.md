@@ -2,12 +2,29 @@
 layout: none
 title: "Summit Shasta Expiditions Offer Oppritunities"
 authors:
-- Maxwell Taniguchi-King
-- Nethan Sivarapu
-- C.M. Bateman
-- Jacob Kahn-Samuelson
+- Evelyn Archibald
+- Brian Bodestyne
+- Albert Chang-Yoo
+- Jenny Hu
+- Lyanna Cruzat
+- Melissa Domingo
+- Mariam Feleyeh
+- Kalysta Frost
+- Matthew Goncalves
+- Sophia Lim
+- Darren Macario
+- Zachary Navarra
+- Ethaniel Jose Reyes
+- Mytrisha Sarmiento
+- Kaitlyn Scribner
+- Massimo Sibillo
+- Jordan Singh
+- Alana Tutasi
+- Sophia Woehl
+- Amanda Yon
 tags:
 - Community
+- Expeditions
 excerpt_separator: <!--more-->
 ---
 <!--more-->
