@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "Summit Shasta Expiditions Offer Oppritunities"
+title: Summit Shasta expiditions offer oppritunities
 authors:
 - Evelyn Archibald
 - Brian Bodestyne

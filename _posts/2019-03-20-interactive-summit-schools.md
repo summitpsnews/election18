@@ -1,6 +1,6 @@
 ---
 layout: none
-title: "Summit campuses reflect on their college readiness"
+title: Summit campuses reflect on their college readiness
 authors:
 - Maxwell Taniguchi-King
 - Nethan Sivarapu
