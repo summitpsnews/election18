@@ -8,6 +8,7 @@ authors:
 - Jacob Kahn-Samuelson
 tags:
 - Community
+- Featured
 excerpt_separator: <!--more-->
 ---
 <!--more-->

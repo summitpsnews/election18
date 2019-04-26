@@ -25,6 +25,7 @@ authors:
 tags:
 - Community
 - Expeditions
+- Featured
 excerpt_separator: <!--more-->
 ---
 <!--more-->

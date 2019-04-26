@@ -36,20 +36,10 @@ extraCSS:
         </div>
     </div>
 </div>
-{% assign firstFeaturedArticleTitle = "Summit campuses reflect on their college readiness" %}
-{% assign secondFeaturedArticleTitle = "Summit Shasta expiditions offer oppritunities" %}
-{% for post in site.posts %}
-    {% if post.title == firstFeaturedArticleTitle %}
-        <h2 class="mt-3">Featured Article</h2>
-        {% include article-list-item.html %}
-    {% endif %}
-    {% if post.title == secondFeaturedArticleTitle %}
-        {% include article-list-item.html %}
-    {% endif %}
-{% endfor %}
-{% for post in site.posts %}
-    
-{% endfor %}
+<h2 class="mt-3">Featured Articles</h2>
+{% for post in site.tags[Featured] %}
+    {% include article-list-item.html %}
+{% else %}
 
 <h2 class="mt-3">Recent Articles</h2>
 {% for post in site.posts limit:9 %}
