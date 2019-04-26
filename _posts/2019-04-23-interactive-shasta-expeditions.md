@@ -1,6 +1,6 @@
 ---
 layout: none
-title: Summit Shasta expiditions offer oppritunities
+title: Summit Shasta Expeditions offer opportunities
 authors:
 - Evelyn Archibald
 - Brian Bodestyne
