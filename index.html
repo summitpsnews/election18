@@ -39,7 +39,13 @@ extraCSS:
 {% assign firstFeaturedArticleTitle = "Summit campuses reflect on their college readiness" %}
 {% assign secondFeaturedArticleTitle = "Summit Shasta expiditions offer oppritunities" %}
 {% for post in site.posts %}
-    {% if post.title == firstFeaturedArticleTitle or post.title == secondFeaturedArticleTitle %}
+    {% if post.title == firstFeaturedArticleTitle %}
+        <h2 class="mt-3">Featured Article</h2>
+        {% include article-list-item.html %}
+    {% endif %}
+{% endfor %}
+{% for post in site.posts %}
+    {% if post.title == secondFeaturedArticleTitle %}
         <h2 class="mt-3">Featured Article</h2>
         {% include article-list-item.html %}
     {% endif %}
