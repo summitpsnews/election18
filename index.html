@@ -36,9 +36,10 @@ extraCSS:
         </div>
     </div>
 </div>
-{% assign featuredArticleTitle = "Summit Shasta expiditions offer oppritunities" %}
+{% assign firstFeaturedArticleTitle = "Summit campuses reflect on their college readiness" %}
+{% assign secondFeaturedArticleTitle = "Summit Shasta expiditions offer oppritunities" %}
 {% for post in site.posts %}
-    {% if post.title == featuredArticleTitle %}
+    {% if post.title == (firstFeaturedArticleTitle || secondFeaturedArticleTitle) %}
         <h2 class="mt-3">Featured Article</h2>
         {% include article-list-item.html %}
     {% endif %}
