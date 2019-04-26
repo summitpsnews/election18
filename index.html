@@ -40,6 +40,10 @@ extraCSS:
 {% for post in site.tags[Featured] %}
     {% include article-list-item.html %}
 {% else %}
+<p>
+    There are no articles with this tag.
+</p>
+{% endfor %}
 
 <h2 class="mt-3">Recent Articles</h2>
 {% for post in site.posts limit:9 %}
