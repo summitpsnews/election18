@@ -47,7 +47,7 @@ extraCSS:
     var imageWidth = divWidth.width;
     var imageHeight = divWidth.height;
     for(var i = 0; i < centered.length;i++){
-        centered[i].style.transform = "translate(((imageWidth-centered[i].width)/2),-((imageHeight-centered[i].height)/2))";
+        centered[i].style.transform = 'translate((${imageWidth}px-${centered[i].width}px)/2),-((${imageHeight}px-${centered[i].height}px)/2))';
     }
     
 </script>
