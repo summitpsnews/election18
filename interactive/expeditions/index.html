@@ -6,54 +6,24 @@ extraCSS:
 - article
 ---
 <style>
-    /*.row {*/
-    /*    width:125%;*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    padding: 0 4px;*/
-    /*}*/
-    
-    /*.column {*/
-    /*    flex: 100%;*/
-    /*    padding: 0 4px;*/
-    /*}*/
-    
-    /*.column img {*/
-    /*    width: 100%;*/
-        /*margin-top: 8px;*/
-    /*    vertical-align: middle;*/
-    /*}*/
-    /*.container {*/
-    /*    width: 30%;*/
-    /*    margin-top: 8px;*/
-        /*border: solid black;*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*    padding: 0 4px;*/
-    /*}*/
-    
-    /*.centered{*/
-    /*    border: solid black;*/
-    /*    text-align:center;*/
-    /*    width:30;*/
-    /*    color: black;*/
-    /*    position: absolute;*/
-        /*transform: translate(100%, -300%);*/
-        
     img {
         width: 100%;
     }
+    
+    .centered {
+        transform: translateY(-50%);
+        width: calc(100% - 30px);
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        color: white;
+        font-weight: bold;
+        font-size: 1.35em;
+        text-shadow: 0 1px 4px #0005;
+    }
 }
 </style>
-<script type="text/javascript">
-    // var divWidth = document.getElementById(imageWidth);
-    // var centered = document.getElementsByClassName(centered);
-    // var imageWidth = divWidth.width;
-    // var imageHeight = divWidth.height;
-    // for(var i = 0; i < centered.length;i++){
-    //     centered[i].style.transform = "translate(" + ((imageWidth-centered[i].width)/2) + "," + (-(imageHeight-centered[i].height)/2) + ")";
-    // }
-</script>
+
 <div class="article-title">
     Shasta Expeditions Explorer
 </div>
@@ -61,120 +31,120 @@ extraCSS:
     Click a picture to view the class!
 </h5>
 <div class = "container">
-    <div class="row">
-        <div class="col-4">
+    <div class="row mb-4">
+        <div class="col-12 col-md-4">
             <a href = "psychology">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/psychology.jpg"></img>
             <div class="centered"><p>Psychology</p></div>
             </a>
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-4">
             <a href = "cooking-fundamentals ">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/cookingFundamentals.jpg"></img>
             <div class="centered"><p>Cooking Fundementals</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "college-readiness">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/collegeReadiness.jpg"></img>
             <div class="centered"><p>College Readiness</p></div>
             </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">    
+    <div class="row mb-4">
+        <div class="col-12 col-md-4">    
             <a href = "community-service">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/communityService.jpg"></img>
             <div class="centered"><p>Community Service</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "creative-writing">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/creativeWriting.jpg"></img>
             <div class="centered"><p>Creative Writing</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "entrepreneurship">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/entrepreneurship.jpg"></img>
             <div class="centered"><p>Entrepreneurship</p></div>
             </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">    
+    <div class="row mb-4">
+        <div class="col-12 col-md-4">    
             <a href = "video-production">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/videoProduction.png"></img>
             <div class="centered"><p>Video Production</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "human-rights">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/humanRights.jpg"></img>
             <div class="centered"><p>Human Rights<p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "human-sexuality">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/humanSexuality.jpg"></img>
             <div class="centered"><p>Human Sexuality</p></div>
             </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">    
+    <div class="row mb-4">
+        <div class="col-12 col-md-4">    
             <a href = "intro-visual-arts">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/introVisualArts.jpg"></img>
             <div class="centered"><p>Intro to Visual Arts</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "intermediate-visual-arts">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/intermediateVisualArts.jpg"></img>
             <div class="centered"><p>Intermediate Visual Arts</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "intrapreneurship">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/intrapreneurship.jpg"></img>
             <div class="centered"><p>Intrapreneurship</p></div>
             </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">    
+    <div class="row mb-4">
+        <div class="col-12 col-md-4">    
             <a href = "life-after-shasta">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/lifeAfterShasta.jpg"></img>
             <div class="centered"><p>Life After Shasta</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "local-wilderness">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/localWilderness.jpg"></img>
             <div class="centered"><p>Local Wilderness</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "intro-programming">
             <img src="{{site.baseurl}}/assets/interactive/expeditions/programming.jpg"></img>
             <div class="centered"><p>Intro to Programming</p></div>
             </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-4">    
+    <div class="row mb-4">
+        <div class="col-12 col-md-4">    
             <a href = "robotics"> 
             <img src="{{site.baseurl}}/assets/interactive/expeditions/robotics.jpg"></img>
             <div class="centered"><p>Robotics</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "video-gme-programming"> 
             <img src="{{site.baseurl}}/assets/interactive/expeditions/videoGame.jpg"></img>
             <div class="centered"><p>Video Game Programming</p></div>
             </a>
         </div>
-        <div class="col-4">    
+        <div class="col-12 col-md-4">    
             <a href = "multimedia-political-journalism"> 
             <img src="{{site.baseurl}}/assets/interactive/expeditions/multimediaPoliticalJournalism.jpg"></img>
             <div class="centered"><p>Multimedia Political Journalism</p></div>
