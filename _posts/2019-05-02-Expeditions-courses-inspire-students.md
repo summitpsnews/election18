@@ -10,7 +10,6 @@ tags:
 - Expeditions
 - Arts
 ---
-
 Kids are pacing around the classroom in a circle, walking in different ways. The teacher selects a student with a unique walking style and asks the rest of the class to mimic the way the student   treads around the classroom. Afterwards, students are asked to walk around and bump into different people and continuously change the way they walk in order to match the person they recently bumped into. 
 
 Keith Brown, the Stage Combat Expeditions teacher at Rainier, explained that the purpose of this activity was for students to acknowledge that there are different characters and people in the world; He says there are ways to become these different elements by adapting to your surroundings.
