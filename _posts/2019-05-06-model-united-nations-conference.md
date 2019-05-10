@@ -1,5 +1,5 @@
 ---
-title: Students own their truth about overcoming barriers at conference
+title: 
 authors: 
 - Judy Ly
 - Karla Tran
