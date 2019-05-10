@@ -1,5 +1,5 @@
 ---
-title: 
+title: Students flew to New York for their first Model United Nations conference
 authors: 
 - Judy Ly
 - Karla Tran
