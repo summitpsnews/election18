@@ -1,6 +1,6 @@
 ---
 layout: none
-title: Summit Rainier Expeditions offer opportunities
+title: Summit Rainier Expeditions Give Students a Chance to Explore
 authors:
 - Deandra Han
 - Jasmine Villegas
