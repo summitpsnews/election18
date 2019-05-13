@@ -133,6 +133,6 @@ twitterwidget::before {
 
 /* Dynamic width and height for YouTube videos */
 iframe[src*="youtube"] {
-    width: 65vw;
-    height: 36.5625vw;
+    width: 100%;
+    height: 34.7vw;
 }
