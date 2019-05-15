@@ -4,33 +4,45 @@ extraCSS:
 - article
 ---
 <div class="article-info">
-    <div class="article-title">
-        {{ page.title }}
-    </div>
-    <div class="article-date">
-        Posted on {{ page.date | date_to_long_string: "ordinal", "US" }}
-    </div>
-    <div class="article-authors">
-        by
-        {% for author in page.authors %}
-            <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-    </div>
-    <div class="article-tags">
-        Tags: {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-    </div>
+    {% if page.title %}
+        <div class="article-title">
+            {{ page.title }}
+        </div>
+    {% endif %}
+    {% if page.date %}
+        <div class="article-date">
+            Posted on {{ page.date | date_to_long_string: "ordinal", "US" }}
+        </div>
+    {% endif %}
+    {% if page.authors %}
+        <div class="article-authors">
+            by
+            {% for author in page.authors %}
+                <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        </div>
+    {% endif %}
+    {% if page.tags %}
+        <div class="article-tags">
+            Tags: {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        </div>
+    {% endif %}
 </div>
 
 <div class="article-body">
-    <img class="article-cover img-card" src="{{ site.baseurl }}/assets{{ page.id }}/cover.jpg"/>
+    {% unless page.nocover %}
+        <img class="article-cover img-card" src="{{ site.baseurl }}/assets{{ page.url }}cover.jpg"/>
+    {% endunless %}
     {% if page.cover-caption %}
         <em class="article-cover-caption">{{ page.cover-caption }}</em>
     {% endif %}
-    <div class="article-byline">
-        By {{ page.authors | array_to_sentence_string }}
-    </div>
+    {% if page.authors %}
+        <div class="article-byline">
+            By {{ page.authors | array_to_sentence_string }}
+        </div>
+    {% endif %}
     <div class="article-content">
         {{ content }}
     </div>
