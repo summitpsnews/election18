@@ -75,7 +75,7 @@ img.article-img {
     text-align: center;
     padding: 40px 1px 10px;
     display: block;
-    background: linear-gradient(to bottom, transparent, 10%, white 70%, white);
+    background: linear-gradient(to bottom, transparent, #fff6 10%, white 70%, white);
     position: absolute;
     bottom: 0px;
     width: 100%;
