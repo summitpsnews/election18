@@ -10,4 +10,4 @@ excerpt_separator: <!--more-->
 published: false
 ---
 <!--more-->
-<meta http-equiv="Refresh" content="0;url={{ site.baseurl }}/interactive/prep-expeditions/">
+<meta http-equiv="Refresh" content="0;url={{ site.baseurl }}/interactive/expeditions-explorer/prep">

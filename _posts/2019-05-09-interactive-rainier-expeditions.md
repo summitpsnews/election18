@@ -31,4 +31,4 @@ tags:
 excerpt_separator: <!--more-->
 ---
 <!--more-->
-<meta http-equiv="Refresh" content="0;url={{ site.baseurl }}/interactive/rainier-expeditions/">
+<meta http-equiv="Refresh" content="0;url={{ site.baseurl }}/interactive/expeditions-explorer/rainier/">

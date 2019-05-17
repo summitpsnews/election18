@@ -29,4 +29,4 @@ tags:
 excerpt_separator: <!--more-->
 ---
 <!--more-->
-<meta http-equiv="Refresh" content="0;url={{ site.baseurl }}/interactive/shasta-expeditions/">
+<meta http-equiv="Refresh" content="0;url={{ site.baseurl }}/interactive/expeditions-explorer/shasta/">
