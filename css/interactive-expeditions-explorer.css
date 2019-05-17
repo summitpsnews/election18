@@ -1,9 +1,13 @@
+/* Styles apply to each school's respective expeditions explorer page */
+
+/* Sets correct image size for the thumbnails of each expedition */
 img {
     width: 100%;
     height: 15vw;
     object-fit: cover;
 }
 
+/* Ensures that the expedition title is centered on the thumbnail and adds shadow, etc. for styling */
 .centered {
     transform: translateY(-50%);
     width: calc(100% - 30px);
