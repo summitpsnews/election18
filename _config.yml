@@ -44,6 +44,22 @@ defaults:
     path: "authors"
   values:
     layout: "author"
+- scope:
+    path: "interactive/expeditions-explorer/shasta/pages"
+  values:
+    permalink: "/interactive/expeditions-explorer/shasta/:basename/"
+- scope:
+    path: "interactive/expeditions-explorer/rainier/pages"
+  values:
+    permalink: "/interactive/expeditions-explorer/rainier/:basename/"
+- scope:
+    path: "interactive/expeditions-explorer/prep/pages"
+  values:
+    permalink: "/interactive/expeditions-explorer/prep/:basename/"
+- scope:
+    path: "interactive/expeditions-explorer/everest/pages"
+  values:
+    permalink: "/interactive/expeditions-explorer/everest/:basename/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
