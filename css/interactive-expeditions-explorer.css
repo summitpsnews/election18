@@ -10,7 +10,7 @@ img {
 /* Ensures that the expedition title is centered on the thumbnail and adds shadow, etc. for styling */
 .centered {
     transform: translateY(-50%);
-    width: calc(100% - 30px);
+    width: calc(100% - 30px - 2vw);
     text-align: center;
     position: absolute;
     top: 50%;
@@ -18,4 +18,5 @@ img {
     font-weight: bold;
     font-size: 1.35em;
     text-shadow: 0 1px 7px #333a;
+    overflow-wrap: break-word;
 }
