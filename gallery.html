@@ -1,5 +1,6 @@
 ---
 layout: main
+nosidebar: true
 ---
 <h2>Image Gallery</h2>
 <style type="text/css">
@@ -7,7 +8,7 @@ layout: main
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; /* media query to change this? */
         grid-auto-rows: minmax(auto, 20vw);
-        grid-column-gap: 1.5vw;
+        grid-column-gap: 2vw;
         grid-row-gap: 2vw;
     }
     .image {
@@ -19,6 +20,8 @@ layout: main
         align-items: center;
         background: #eee;
         cursor: zoom-in;
+        height: 100%;
+        outline: none;
     }
     .image img {
         max-width: 100%;
@@ -47,11 +50,13 @@ layout: main
         cursor: default;
     }
 </style>
-<div class="card" id="gallery">
+<div id="gallery">
     {% for image in site.static_files %}
-        {% if image.path contains 'assets/articles/' %}
-            <div class="image" tabindex="0">
-                <img src="{{ site.baseurl }}{{ image.path }}"></img>
+        {% if image.path contains 'assets/articles/' or image.path contains 'assets/interactive/expeditions-explorer' %}
+            <div class="box">
+                <div class="image" tabindex="0">
+                    <img src="{{ site.baseurl }}{{ image.path }}"></img>
+                </div>
             </div>
         {% endif %}
     {% endfor %}
