@@ -119,6 +119,8 @@ extraCSS:
     sort("recent");
     sortMethod = "recent";
     document.forms.sort.addEventListener('click', e => {
-        sort(document.forms.sort.sort.value);
+        setTimeout(function(){
+            sort(document.forms.sort.sort.value);
+        },100);
     });
 </script>

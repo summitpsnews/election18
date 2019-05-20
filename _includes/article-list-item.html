@@ -6,7 +6,7 @@
                 {{ post.title }}
             </a>
         </h5>
-        <div class="article-date">
+        <div class="article-date" data-date="{{ post.date }}">
             Posted on {{ post.date | date_to_long_string: "ordinal", "US" }}
         </div>
         <div class="article-authors">
