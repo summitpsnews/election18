@@ -3,9 +3,7 @@
 /* Height, border radius, and box shadow of each article card */
 .article {
     height: 300px;
-    box-shadow: 0 2px 5px 1px #0002;
-    border-radius: 16px;
-    background-color: white;
+    padding: initial;
     position: relative;
     overflow: hidden;
 }

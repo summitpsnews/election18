@@ -30,10 +30,6 @@
 /* Styling for the main content of the article */
 .article-body {
     margin-top: 25px;
-    padding: 2vw;
-    box-shadow: 0 2px 5px 1px #0002;
-    border-radius: 16px;
-    background-color: white;
 }
 
 /* Styling for the cover image */
