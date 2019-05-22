@@ -18,14 +18,14 @@ extraCSS:
         <div class="article-authors">
             by
             {% for author in page.authors %}
-                <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% unless forloop.last %},{% endunless %}
+                <a href="{{ site.baseurl }}/authors/{{ author | slugify }}.html">{{ author }}</a>{% if forloop.rindex > 2 %}, {% elsif forloop.rindex == 2 %} and {% endif %}
             {% endfor %}
         </div>
     {% endif %}
     {% if page.tags %}
         <div class="article-tags">
             Tags: {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+                <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}.html">{{ tag }}</a>{% if forloop.rindex > 2 %}, {% elsif forloop.rindex == 2 %} and {% endif %}
             {% endfor %}
         </div>
     {% endif %}
