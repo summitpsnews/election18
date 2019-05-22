@@ -60,6 +60,10 @@ defaults:
     path: "interactive/expeditions-explorer/everest/pages"
   values:
     permalink: "/interactive/expeditions-explorer/everest/:basename/"
+- scope:
+    type: redirects
+  values:
+    layout: redirect
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -82,3 +86,8 @@ exclude:
   - Rakefile
   - regenerate-author-pages.sh
   - static.json
+
+collections:
+  redirects:
+    output: true
+    permalink: /:path/
