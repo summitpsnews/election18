@@ -5,21 +5,20 @@ authors:
 - Evelyn Archibald
 - Brian Bodestyne
 - Albert Chang-Yoo
-- Jenny Hu
 - Lyanna Cruzat
 - Melissa Domingo
 - Mariam Feleyeh
 - Kalysta Frost
 - Matthew Goncalves
+- Jenny Hu
 - Sophia Lim
 - Darren Macario
 - Zachary Navarra
-- Ethaniel Jose Reyes
+- Ethaniel Reyes
 - Mytrisha Sarmiento
-- Kaitlyn Scribner
+- Katie Scribner
 - Massimo Sibillo
 - Jordan Singh
-- Alana Tutasi
 - Sophia Woehl
 - Amanda Yon
 tags:

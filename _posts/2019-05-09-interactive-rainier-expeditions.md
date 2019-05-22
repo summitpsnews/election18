@@ -2,28 +2,25 @@
 layout: none
 title: Summit Rainier Expeditions give students a chance to explore
 authors:
-- Deandra Han
-- Jasmine Villegas
-- Cathy Ly
-- Amanda Flores
-- Yesenia Martinez
-- Christian Frias
-- Judy Ly
-- Keith Dinh
-- Jennifer Rico
-- Charlie Stattion
-- Analisa Sofia Perez
-- Christina Velez
-- Abel Rangel
-- Karla Tran
-- Alisha Redmond
-- Inderpal Sivia
-- Khanh Nguyen
 - Juan Ambrosio
 - Osvaldo Ayala
+- Amanda Flores
+- Christian Frias
+- Justin San Giovanni
+- Deandra Han
 - Brayan Lozano
-- Gabryele Garcia
-- Sabrina Guzman Nava
+- Cathy Ly
+- Judy Ly
+- Yesenia Martinez
+- Khanh Nguyen
+- Analisa Sofia Perez
+- Abel Rangel
+- Jennifer Rico
+- Inderpal Sivia
+- Charlie Stattion
+- Karla Tran
+- Christina Velez
+- Jasmine Villegas
 tags:
 - Community
 - Expeditions

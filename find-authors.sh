@@ -1,0 +1,1 @@
+grep -Pazohr "^(?<=authors:\n)(- .*?\n)+" $1 | awk -F" " '{ print $NF, $0 }' | sort -n -k1 | sed 's/^\S\S* //' | uniq
