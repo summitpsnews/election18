@@ -6,6 +6,7 @@ tags:
 - Community
 - Expeditions
 - Featured
+- Expeditions Explorers
 excerpt_separator: <!--more-->
 published: false
 ---

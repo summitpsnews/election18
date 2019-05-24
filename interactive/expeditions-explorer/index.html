@@ -1,0 +1,9 @@
+---
+layout: main
+extraCSS:
+- article-list
+---
+<h2>Expeditions Explorers</h2>
+{% for post in site.tags["Expeditions Explorers"] %}
+    {% include article-list-item.html %}
+{% endfor %}
