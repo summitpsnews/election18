@@ -40,7 +40,7 @@ extraCSS:
     {% endif %}
     {% if page.authors %}
         <div class="article-byline">
-            By {{ page.authors | array_to_sentence_string }}
+            By {% for author in page.authors %}{{ author }}{% if forloop.rindex > 2 %}, {% elsif forloop.rindex == 2 %} and {% endif %}{% endfor %}
         </div>
     {% endif %}
     <div class="article-content">
