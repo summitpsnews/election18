@@ -61,6 +61,10 @@ defaults:
   values:
     permalink: "/interactive/expeditions-explorer/everest/:basename/"
 - scope:
+    path: "interactive/expeditions-explorer/tahoma/pages"
+  values:
+    permalink: "/interactive/expeditions-explorer/tahoma/:basename/"
+- scope:
     type: redirects
   values:
     layout: redirect
