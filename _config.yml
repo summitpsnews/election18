@@ -65,6 +65,10 @@ defaults:
   values:
     permalink: "/interactive/expeditions-explorer/tahoma/:basename/"
 - scope:
+    path: "interactive/expeditions-explorer/denali/pages"
+  values:
+    permalink: "/interactive/expeditions-explorer/denali/:basename/"
+- scope:
     type: redirects
   values:
     layout: redirect
