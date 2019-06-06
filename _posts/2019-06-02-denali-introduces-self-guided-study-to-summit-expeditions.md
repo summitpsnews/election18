@@ -23,4 +23,4 @@ Ms. Breuer plans to continue supervising the course at Denali. Students who are 
 
 ***See below for a video about the Self-Guided Study course:***
 
-<iframe width="940" height="529" src="https://www.youtube.com/watch?v=MK7y8RtAU68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="940" height="529" src="https://www.youtube.com/embed/MK7y8RtAU68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
